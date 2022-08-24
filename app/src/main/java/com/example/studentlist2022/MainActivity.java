@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     String[] peopleList = {
             "Clayton Arnett, CS", //0
             "Griffin Barnard, CS",
+            "Ben Blackmon, DET",
             "Ben Briggs, DET",
             "Alex Burgos, CS",
             "Ethan Clayton, CS",
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Grayson Orcutt, DET",
             "Mike Rageur, CS",
             "Cameron Wallace, DET",
-            "Prof Tanner, DET & CS" //17
+            "Prof Tanner, DET & CS" //18
     };
 
     @Override
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position)
         {
-            case 17:
+            case 18:
                 // by specific index
                 Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
                 break;
