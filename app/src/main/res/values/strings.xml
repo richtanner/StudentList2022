@@ -4,4 +4,11 @@
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="rwt_title_bar">Prof Tanner String</string>
+    <string name="acd_name">Alissa Davis</string>
+    <string-array name="acd_app_suggestions">
+        <item>DND Dice Tower</item>
+        <item>Habit Checklist</item>
+        <item>Grade Checker</item>
+        <item>Random Prompt Generator</item>
+    </string-array>
 </resources>
