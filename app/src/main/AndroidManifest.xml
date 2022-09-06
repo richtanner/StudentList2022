@@ -24,6 +24,17 @@
         </activity>
 
         <activity
+            android:name=".AnthonyActivity"
+            android:exported ="false"
+            android:label="Anthony Moncivais String"
+            android:theme="@style/ProfTannerCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+
+        <activity
             android:name=".SingleListItem"
             android:exported="false" />
         <activity
