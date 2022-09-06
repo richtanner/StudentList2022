@@ -17,15 +17,16 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     // Array of strings...
     // We could have also have created an empty array and then added each item individually using array.add type functions
+    // Ethan isn't in this class anymore, silly
     String[] peopleList = {
             "Clayton Arnett, CS", //0
-            "Griffin Barnard, CS",
+            "Griffin Barnard, CS", // second coolest student in this class
             "Ben Blackmon, DET",
             "Ben Briggs, DET",
             "Alex Burgos, CS",
             "Ethan Clayton, CS",
             "Alissa Davis, DET",
-            "Evan Grau, CS",
+            "Evan Grau, CS", // coolest student in this class, according to my calculations
             "McLennan Jones, CS",
             "Bailey Kimmel, CS",
             "Noah Massie, DET",
