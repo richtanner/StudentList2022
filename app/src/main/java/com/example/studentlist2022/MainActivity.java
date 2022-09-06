@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Ben Briggs, DET",
             "Alex Burgos, CS",
             "Ethan Clayton, CS",
-            "Alissa Davis, DET",
+            "Alissa Davis, DET", /**Hey look that's me! - AD**/
             "Evan Grau, CS",
             "McLennan Jones, CS",
             "Bailey Kimmel, CS",
