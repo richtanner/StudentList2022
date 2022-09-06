@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Ben Blackmon, DET",
             "Ben Briggs, DET",
             "Alex Burgos, CS",
-            "Ethan Clayton, CS",
             "Alissa Davis, DET",
             "Evan Grau, CS",
             "McLennan Jones, CS",
@@ -36,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Grayson Orcutt, DET",
             "Mike Rageur, CS",
             "Cameron Wallace, DET",
-            "Prof Tanner, DET & CS" //18
+            "Prof Tanner, DET & CS" //17
     };
 
     @Override
@@ -63,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position)
         {
-            case 18:
+            case 17:
                 // by specific index
                 Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
                 break;
