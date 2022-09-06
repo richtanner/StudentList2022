@@ -68,6 +68,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
                 break;
 
+            case 4:
+                Toast.makeText(this, personSelected + "created a cool branch XD!!", Toast.LENGTH_LONG).show();
+                break;
+
             default:
                 // every case that wasn't specifically called out
                 Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();
@@ -82,6 +86,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
+        }
+
+        else if (personSelected.equals("Ben Briggs, DET"))
+        {
+            //Go to best activity
+//            Context context = simpleList.getContext();
+//            Intent intent = new Intent(context, "nameofclass".class);
+//            context.startActivity(intent);
         }
     }
 }
