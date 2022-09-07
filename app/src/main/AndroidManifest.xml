@@ -14,26 +14,41 @@
         android:theme="@style/Theme.StudentList2022"
         tools:targetApi="31">
         <activity
+            android:name=".AppIdea2"
+            android:exported="false"
+            android:label="Anthony Moncivais"
+            android:theme="@style/AnthonyMoncivaisCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AnthonyActivity" />
+        </activity>
+        <activity
+            android:name=".AppIdeaAGM"
+            android:exported="false"
+            android:label="LvlUp App Idea"
+            android:theme="@style/AnthonyMoncivaisCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AnthonyActivity" />
+        </activity>
+        <activity
             android:name=".ProfTannerActivity"
             android:exported="false"
             android:label="@string/rwt_title_bar"
             android:theme="@style/ProfTannerCustomTheme">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-
         <activity
             android:name=".AnthonyActivity"
-            android:exported ="false"
-            android:label="Anthony Moncivais String"
+            android:exported="false"
+            android:label="Anthony Moncivais"
             android:theme="@style/AnthonyMoncivaisCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
-
-
         <activity
             android:name=".SingleListItem"
             android:exported="false" />

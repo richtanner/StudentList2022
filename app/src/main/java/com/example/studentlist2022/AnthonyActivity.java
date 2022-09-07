@@ -23,8 +23,8 @@ public class AnthonyActivity extends AppCompatActivity implements RecyclerViewIn
     RecyclerView recyclerView;
     // Array of strings...
     String[] langArray = {
-            "Create a list of app ideas",
-            "C++",
+            "App Ideas",
+            "LvlUp",
             "C#",
             "HTML",
             "CSS",
@@ -52,53 +52,23 @@ public class AnthonyActivity extends AppCompatActivity implements RecyclerViewIn
         appIdeaList.addAll(Arrays.asList(langArray));
     }
 
-//    @Override
-//    public void onItemClick(AdapterView<?> adapterView, View view, int position, long l)
-//    {
-//        // we got notified that something was selected!  AND we know WHICH ITEM was selected!
-//
-//        // get the value of the string in the specific position of the array that was selected (tapped on)
-//        String personSelected = (String) recyclerView.getAdapter().getItem(position);
-//
-//
-//        /** do something cool based on the INDEX (int) of the selected item **/
-//        switch (position)
-//        {
-//            case 18:
-//                // by specific index
-//                Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
-//                break;
-//
-//            default:
-//                // every case that wasn't specifically called out
-//                Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();
-//                break;
-//        }
-//
-//
-//        /** do something cool based on the exact VALUE (string) of the selected item **/
-//        if (personSelected.equals("Prof Tanner, DET & CS"))
-//        {
-//            // go to a new activity
-//            Context context = simpleList.getContext();
-//            Intent intent = new Intent(context, ProfTannerActivity.class);
-//            context.startActivity(intent);
-//        }
-//        if(personSelected.equals("Anthony Moncivais, CS & DET"))
-//        {
-//            Context context = simpleList.getContext();
-//            Intent intent = new Intent(context, AnthonyActivity.class);
-//            context.startActivity(intent);
-//        }
-//    }
+
 
     @Override
     public void onItemClick(int position) {
+        Context context = recyclerView.getContext();
+        Intent intent;
 
         switch(position)
         {
-            default:
-                Toast.makeText(this, "Ey " + position, Toast.LENGTH_LONG).show();
+            case 1:
+                intent = new Intent(context, AppIdeaAGM.class);
+                context.startActivity(intent);
+                break;
+            case 2:
+                intent = new Intent(context, AppIdea2.class);
+                context.startActivity(intent);
+                break;
         }
     }
 }
