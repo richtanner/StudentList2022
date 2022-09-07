@@ -8,6 +8,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
         android:layout_height="144dp"
+        android:background="@drawable/border"
         app:cardBackgroundColor="@color/dark_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,6 +23,7 @@
                 android:id="@+id/textViewRecyclerView"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:background="@drawable/border"
                 android:contentDescription="@string/agm_name"
                 android:text="@string/agm_name"
                 android:textAlignment="center"
