@@ -27,7 +27,7 @@
             android:name=".AnthonyActivity"
             android:exported ="false"
             android:label="Anthony Moncivais String"
-            android:theme="@style/ProfTannerCustomTheme">
+            android:theme="@style/AnthonyMoncivaisCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
