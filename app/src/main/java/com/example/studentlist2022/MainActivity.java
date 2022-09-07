@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Ben Blackmon, DET",
             "Ben Briggs, DET",
             "Alex Burgos, CS",
-            "Ethan Clayton, CS",
             "Alissa Davis, DET",
             "Evan Grau, CS", // coolest student in this class, according to my calculations
             "McLennan Jones, CS",
@@ -64,9 +63,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position)
         {
-            case 18:
+            case 17:
                 // by specific index
                 Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
+                break;
+
+            case 6:
+                // it's me!
+                Toast.makeText(this, personSelected + " is trying his best!", Toast.LENGTH_LONG).show();
                 break;
 
             default:
@@ -83,6 +87,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
+        }
+        else if (personSelected.equals("Evan Grau, CS"))
+        {
+            // go to my activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, EvanGrauActivity.class);
+            context.startActivities(intent);
         }
     }
 }
