@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Ben Briggs, DET",
             "Alex Burgos, CS",
             "Ethan Clayton, CS",
-            "Alissa Davis, DET", /**Hey look that's me! - AD**/
+            "Alissa Davis, DET", /**Hey look that's me! - AD**/ //6
             "Evan Grau, CS",
             "McLennan Jones, CS",
             "Bailey Kimmel, CS",
@@ -63,6 +63,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position)
         {
+            case 6:
+                //Alissa Davis's index
+                Toast.makeText(this,personSelected + " is a student?", Toast.LENGTH_LONG).show();
+                break;
             case 18:
                 // by specific index
                 Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
@@ -81,6 +85,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
+            context.startActivity(intent);
+        }
+
+        //Do my thing! - Alissa
+        if(position == 6){
+            //Mwahaha I'm getting somewhere! - Alissa
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, AlissaDavisActivity.class);
             context.startActivity(intent);
         }
     }

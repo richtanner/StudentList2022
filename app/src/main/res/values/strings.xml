@@ -5,10 +5,24 @@
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="rwt_title_bar">Prof Tanner String</string>
     <string name="acd_name">Alissa Davis</string>
+    <string name="acd_tempsugg_text">Random Prompt Generator</string>
+    <string name="acd_tempsugg_det">Generate prompts for AI...</string>
     <string-array name="acd_app_suggestions">
         <item>DND Dice Tower</item>
         <item>Habit Checklist</item>
-        <item>Grade Checker</item>
+        <item>Grade Checker Widget</item>
         <item>Random Prompt Generator</item>
+    </string-array>
+    <string-array name="acd_appsugg_desc">
+        <item>Roll an array of dice...</item>
+        <item>Build good daily habits...</item>
+        <item>Check your grades...</item>
+        <item>Generate prompts for AI...</item>
+    </string-array>
+    <string-array name="acd_appsugg_moreinfo">
+        <item>The user gets to select a type of dice and then roll it to get a result. It is very helpful for people who play DnD games or those who rely on chance to make decisions.</item>
+        <item>The user makes daily habits they want to develop. They can set reminders to remind themself to check the habit off their list for the day. The list resets at midnight in their local time.</item>
+        <item>This widget allows users to check their grades on their home screen without having to open their school app.</item>
+        <item>This app allows users to generate random prompts from a dictionary to use for AI generators (for instance, Dall-E image generator).</item>
     </string-array>
 </resources>

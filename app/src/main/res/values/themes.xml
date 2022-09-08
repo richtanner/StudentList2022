@@ -21,4 +21,10 @@
         <item name="colorAccent">@color/rwt_customRed</item>
     </style>
 
+    <style name="AlissaDavisCustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/acd_mediumGreen</item>
+        <item name="colorPrimaryDark">@color/acd_forestGreen</item>
+        <item name="colorAccent">@color/acd_lightChittimWood</item>
+    </style>
+
 </resources>
