@@ -23,9 +23,8 @@ public class AnthonyActivity extends AppCompatActivity implements RecyclerViewIn
     RecyclerView recyclerView;
     // Array of strings...
     String[] langArray = {
-            "App Ideas",
             "LvlUp",
-            "C#",
+            "Church Geolocator",
             "HTML",
             "CSS",
             "JavaScript",
@@ -61,11 +60,11 @@ public class AnthonyActivity extends AppCompatActivity implements RecyclerViewIn
 
         switch(position)
         {
-            case 1:
+            case 0:
                 intent = new Intent(context, AppIdeaAGM.class);
                 context.startActivity(intent);
                 break;
-            case 2:
+            case 1:
                 intent = new Intent(context, AppIdea2.class);
                 context.startActivity(intent);
                 break;
