@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // go to my activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, EvanGrauActivity.class);
-            context.startActivities(intent);
+            context.startActivity(intent);
         }
     }
 }

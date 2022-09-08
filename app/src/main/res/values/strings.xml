@@ -6,4 +6,5 @@
     <string name="rwt_title_bar">Prof Tanner String</string>
     <string name="ekg_name">Evan Grau</string>
     <string name="ekg_title">Sophomore CS Student</string>
+    <string name="ekg_title_bar">Evan Grau String</string>
 </resources>
