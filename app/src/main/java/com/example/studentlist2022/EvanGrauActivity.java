@@ -12,12 +12,14 @@ public class EvanGrauActivity extends AppCompatActivity {
 
     // array of app ideas
     String appIdeas[] = {
-            "amogus",
-            "sussy",
-            "this",
-            "is",
-            "a",
-            "test"
+            "Bible app but better",
+            "ripoff Instagram",
+            "ripoff Discord",
+            "app to generate app ideas",
+            "a moblie game that has abnoxious ads",
+            "GraviSwitch on mobile?!?!?!",
+            "an app that helps me cope with being bad at video games",
+            "CashApp except I steal your money instead"
     };
 
     @Override
