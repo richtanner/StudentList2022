@@ -34,7 +34,7 @@ public class ProfTannerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prof_tanner);
 
-        languageList = (ListView)findViewById(R.id.RWT_ListView);
+        languageList = (ListView)findViewById(R.id.rwt_ListView);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, langArray);
         languageList.setAdapter(arrayAdapter);
     }
