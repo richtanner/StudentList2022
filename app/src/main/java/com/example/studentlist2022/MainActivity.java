@@ -74,13 +74,20 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 break;
         }
 
-
         /** do something cool based on the exact VALUE (string) of the selected item **/
         if (personSelected.equals("Prof Tanner, DET & CS"))
         {
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
+            context.startActivity(intent);
+        }
+
+        if (personSelected.equals("Clayton Arnett, CS"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, CRA_Activity.class);
             context.startActivity(intent);
         }
     }

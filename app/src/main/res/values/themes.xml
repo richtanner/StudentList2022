@@ -21,4 +21,10 @@
         <item name="colorAccent">@color/rwt_customRed</item>
     </style>
 
+    <style name="ClaytonArnettCustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/cra_customRed</item>
+        <item name="colorPrimaryDark">@color/cra_customRedDark</item>
+        <item name="colorAccent">@color/cra_customGrey</item>
+    </style>
+
 </resources>

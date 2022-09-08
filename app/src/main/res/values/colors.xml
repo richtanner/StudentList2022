@@ -14,4 +14,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="cra_customRed">#db0b0b</color>
+    <color name="cra_customRedDark">#750808</color>
+    <color name="cra_customGrey">#948a8a</color>
 </resources>
