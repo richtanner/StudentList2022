@@ -14,4 +14,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="LN_My_Color1">#BD0000</color>
+    <color name="LN_My_Color2">#0038E1</color>
+    <color name="LN_My_Color3">#267E01</color>
+    <color name="LN_My_Color4">#B60094</color>
+
 </resources>
