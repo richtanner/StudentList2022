@@ -14,4 +14,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="BMB_custom_blue">#1C60D5</color>
+    <color name="BMB_custom_orange">#DF7240</color>
+    <color name="BMB_custom_purple">#7D53CC</color>
+    <color name="BMB_custom_red">#CC3030</color>
 </resources>
