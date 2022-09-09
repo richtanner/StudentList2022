@@ -18,8 +18,10 @@ public class NCMActivity extends AppCompatActivity implements AdapterView.OnItem
 
     String[] appArray =
     {
-            "We're listing", //0
-            "WAOW!"
+            "Color Collider", //0
+            "Mythos Tree",
+            "Cheese Matcher",
+            "ACU Tinder" //3
     };
 
     @Override
@@ -29,7 +31,7 @@ public class NCMActivity extends AppCompatActivity implements AdapterView.OnItem
         setContentView(R.layout.activity_ncmactivity);
 
         appList = (ListView)findViewById(R.id.NCM_ListView);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_single_list_item, R.id.textViewInLists, appArray);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_single_list_item_ncm, R.id.NCMListItem, appArray);
         appList.setAdapter(arrayAdapter);
         appList.setOnItemClickListener(this);  // set THIS class as the listener
     }
@@ -58,7 +60,7 @@ public class NCMActivity extends AppCompatActivity implements AdapterView.OnItem
 
 
         /** do something cool based on the exact VALUE (string) of the selected item **/
-        if (appSelected.equals("WAOW!"))
+        if (appSelected.equals("Mythos Tree"))
         {
             // go to a new activity
             Context context = appList.getContext();

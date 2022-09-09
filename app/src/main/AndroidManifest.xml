@@ -23,7 +23,7 @@
             android:theme="@style/NCMTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".NCMActivity" />
         </activity>
         <activity
             android:name=".NCMActivity"

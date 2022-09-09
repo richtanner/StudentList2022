@@ -9,5 +9,7 @@
     <string name="ncm_name">Noah Massie</string>
     <string name="ncm_title">Senior Student of DET</string>
     <string name="ncm_title_bar">Noah Massie Info</string>
-    <string name="ncm_app_title">App Idea Title</string>
+    <string name="ncm_app_title">Mythos Tree</string>
+    <string name="ncm_app_ideas">App Possibilities</string>
+    <string name="ncm_app_info">Interactive Mythological Tree which allows you to select a pantheon and then learn which gods were supposed to affect which aspects of life such as love, agriculture, war, and so on, while also providing their family trees and possibly the backgrounds/origins of the individual gods.</string>
 </resources>
