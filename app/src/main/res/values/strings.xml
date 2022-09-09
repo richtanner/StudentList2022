@@ -4,4 +4,9 @@
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="rwt_title_bar">Prof Tanner String</string>
+
+    <string name="bab_name">Benjamin Briggs</string>
+    <string name="bab_title">Mere Mortal Student</string>
+    <string name="bab_app_text">This would be an App that instantly translates text written or on a photo.....
+        and yes I know Google already does that but hush.....also the photo might be a bit much but ¯|_(ツ)_|¯</string>
 </resources>
