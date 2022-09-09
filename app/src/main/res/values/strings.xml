@@ -1,7 +1,13 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">CS 315 Student List: 2022</string>
     <string name="placeholderName">Names go HERE</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="rwt_title_bar">Prof Tanner String</string>
+
+    <!-- my strings -->
+    <string name="ncm_name">Noah Massie</string>
+    <string name="ncm_title">Senior Student of DET</string>
+    <string name="ncm_title_bar">Noah Massie Info</string>
+    <string name="ncm_app_title">App Idea Title</string>
 </resources>

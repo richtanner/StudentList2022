@@ -14,15 +14,35 @@
         android:theme="@style/Theme.StudentList2022"
         tools:targetApi="31">
         <activity
+            android:name=".NCMSingleListItem"
+            android:exported="false" />
+        <activity
+            android:name=".AppIdeaActivity"
+            android:exported="false"
+            android:label="@string/ncm_app_title"
+            android:theme="@style/NCMTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".NCMActivity"
+            android:exported="false"
+            android:label="@string/ncm_title_bar"
+            android:theme="@style/NCMTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ProfTannerActivity"
             android:exported="false"
             android:label="@string/rwt_title_bar"
             android:theme="@style/ProfTannerCustomTheme">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-
         <activity
             android:name=".SingleListItem"
             android:exported="false" />

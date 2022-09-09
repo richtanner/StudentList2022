@@ -16,6 +16,9 @@
 
     <style name="NCMTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- waow colors -->
+        <item name="colorPrimary">@color/ncm_Orange</item>
+        <item name="colorPrimaryDark">@color/ncm_OrangeDark</item>
+        <item name="colorAccent">@color/ncm_Brown</item>
     </style>
 
     <style name="ProfTannerCustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">

@@ -11,11 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:fontFamily="monospace"
-        android:padding="5dp"
+        android:fontFamily="sans-serif"
+        android:padding="8dp"
         android:text="@string/placeholderName"
+        android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/black"
-        android:textSize="24sp" />
+        android:textSize="22sp" />
 
 </LinearLayout>
