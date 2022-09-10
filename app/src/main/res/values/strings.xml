@@ -4,4 +4,9 @@
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="rwt_title_bar">Prof Tanner String</string>
+
+    //AlexB Strings
+    <string name="ab_title_bar">Alexander Burgos, CS</string>
+    <string name="ab_name">Alexander Burgos</string>
+    <string name="ab_title">CS Master Race</string>
 </resources>

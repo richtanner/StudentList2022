@@ -16,6 +16,7 @@
 
         <activity
             android:name=".AlexB_Activity"
+            android:label="@string/ab_title_bar"
             android:parentActivityName=".MainActivity"/>
 
         <activity
