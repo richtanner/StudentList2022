@@ -25,11 +25,11 @@ public class AnthonyActivity extends AppCompatActivity implements RecyclerViewIn
     String[] langArray = {
             "LvlUp",
             "Church Geolocator",
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "SQL",
-            "C++"
+            "Custom Sounds Alarm",
+            "Christian Social Media",
+            "Virtual Study Group",
+            "Motivator App",
+            "Accountability App"
     };
 
 
