@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Grayson Orcutt, DET",
             "Mike Rageur, CS",
             "Cameron Wallace, DET",
-            "Prof Tanner, DET & CS" //18
+            "Prof Tanner, DET & CS",
+            "weewoo I'm A Student, Living it Up" //19
     };
 
     @Override
@@ -63,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position)
         {
-            case 18:
+            case 19:
                 // by specific index
                 Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
                 break;
@@ -76,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
 
         /** do something cool based on the exact VALUE (string) of the selected item **/
-        if (personSelected.equals("Prof Tanner, DET & CS"))
+        if (personSelected.equals("weewoo I'm A Student, Living it Up"))
         {
             // go to a new activity
             Context context = simpleList.getContext();
