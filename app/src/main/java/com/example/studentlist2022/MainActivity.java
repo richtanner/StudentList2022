@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Alissa Davis, DET",
             "Evan Grau, CS",
             "McLennan Jones, CS",
-            "Bailey Kimmelx, CS",
+            "Bailey Kimmel, CS",
             "Noah Massie, DET",
             "Marlon Miller Matute, CS",
             "Anthony Moncivais, CS & DET",
@@ -81,6 +81,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
+            context.startActivity(intent);
+        }
+
+        if (personSelected.equals("Bailey Kimmel, CS"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, AppIdeaActivity_blk.class);
             context.startActivity(intent);
         }
     }

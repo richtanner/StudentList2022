@@ -4,4 +4,8 @@
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="rwt_title_bar">Prof Tanner String</string>
+    <string name="blk_name">Bailey Kimmel</string>
+    <string name="description">Elle Woods but Computer Science</string>
+    <string name="nails">Abilene alone has over 30 nail bars. This proposes an issue women face: Which one has the shortest wait?</string>
+    <string name="title_bk">NailTime would allow nail bars to post their wait times which would clear waiting rooms, boost business, and accommodate the customer. </string>
 </resources>

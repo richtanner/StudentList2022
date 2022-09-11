@@ -21,4 +21,11 @@
         <item name="colorAccent">@color/rwt_customRed</item>
     </style>
 
+    <style name="BaileyKCustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/baby_pink</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/darker_pink</item>
+
+    </style>
+
 </resources>
