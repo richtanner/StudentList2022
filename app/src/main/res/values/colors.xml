@@ -14,4 +14,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="KNterquise">#508F8A</color>
+    <color name="KNdarkgreeen">#0F6C64</color>
+    <color name="KNbanner">#2CB3A7</color>
 </resources>

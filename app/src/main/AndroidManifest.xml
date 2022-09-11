@@ -14,15 +14,32 @@
         android:theme="@style/Theme.StudentList2022"
         tools:targetApi="31">
         <activity
+            android:name=".NotesApp"
+            android:exported="false"
+            android:label="@string/kelli_name"
+            android:theme="@style/KNCustomTheme">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".activity_Kelli_Norris" />
+        </activity>
+        <activity
+            android:name=".activity_Kelli_Norris"
+            android:exported="false"
+            android:label="@string/kelli_name"
+            android:theme="@style/KNCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ProfTannerActivity"
             android:exported="false"
             android:label="@string/rwt_title_bar"
             android:theme="@style/ProfTannerCustomTheme">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-
         <activity
             android:name=".SingleListItem"
             android:exported="false" />
