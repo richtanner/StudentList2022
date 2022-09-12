@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/VertigoAbyss/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_catan_board_generator_idea.xml" value="0.33" />
+        <entry key="..\:/Users/VertigoAbyss/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/VertigoAbyss/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_option_description.xml" value="0.33" />
+        <entry key="..\:/Users/VertigoAbyss/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.5" />
+        <entry key="..\:/Users/VertigoAbyss/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_single_list_item.xml" value="0.5" />
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_listview.xml" value="0.55" />
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.5359375" />
@@ -15,5 +20,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>

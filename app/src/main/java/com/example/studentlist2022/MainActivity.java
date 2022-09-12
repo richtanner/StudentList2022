@@ -18,26 +18,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     // Array of strings...
     // We could have also have created an empty array and then added each item individually using array.add type functions
     String[] peopleList = {
-            "Clayton Arnett, CS", //0
-            "Griffin Barnard, CS",
-            "Ben Blackmon, DET",
-            "Ben Briggs, DET",
-            "Alex Burgos, CS",
-            "Ethan Clayton, CS",
-            "Alissa Davis, DET",
-            "Evan Grau, CS",
-            "McLennan Jones, CS",
-            "Bailey Kimmel, CS",
-            "Noah Massie, DET",
-            "Marlon Miller Matute, CS",
-            "Anthony Moncivais, CS & DET",
-            "Lauren Najera, DET",
-            "Kelli Norris, DET",
-            "Grayson Orcutt, DET",
-            "Mike Rageur, CS",
-            "Cameron Wallace, DET",
-            "Prof Tanner, DET & CS",
-            "weewoo I'm A Student, Living it Up" //19
+            "Catan Board Generator", //0
+            "Mini Calculator",
+            "Mini Dice Roller"
     };
 
     @Override
@@ -64,25 +47,18 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position)
         {
-            case 19:
+            case 0:
                 // by specific index
-                Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
+                Context context = simpleList.getContext();
+                Intent intent = new Intent(this, CatanBoardGeneratorIdea.class);
+                startActivity(intent);
                 break;
 
             default:
-                // every case that wasn't specifically called out
-                Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, "It's a " + personSelected + ", I don't know what you expected lol.", Toast.LENGTH_LONG).show();
                 break;
         }
 
 
-        /** do something cool based on the exact VALUE (string) of the selected item **/
-        if (personSelected.equals("weewoo I'm A Student, Living it Up"))
-        {
-            // go to a new activity
-            Context context = simpleList.getContext();
-            Intent intent = new Intent(context, ProfTannerActivity.class);
-            context.startActivity(intent);
-        }
     }
 }

@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">CS 315 Student List: 2022</string>
+    <string name="app_name">My Project Ideas</string>
     <string name="placeholderName">Names go HERE</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="rwt_title_bar">Prof Tanner String</string>
+    <string name="catan_Title">Catan Board Generator</string>
 </resources>

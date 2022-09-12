@@ -14,4 +14,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="brick">#7A2700</color>
+    <color name="lumber">#244C02</color>
+    <color name="ore">#404855</color>
+    <color name="wheat">#EDD139</color>
+    <color name="sheep">#97EC38</color>
 </resources>
