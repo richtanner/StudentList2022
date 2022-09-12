@@ -16,7 +16,7 @@
         <activity
             android:name=".RPGLifeActivity"
             android:exported="false"
-            android:label="@string/bmb_title_bar"
+            android:label="@string/bmb_rpg_life_title_bar"
             android:theme="@style/BenBlackmonCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

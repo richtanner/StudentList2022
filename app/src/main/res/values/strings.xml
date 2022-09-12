@@ -24,5 +24,10 @@
     </string>
 
     <string name="bmb_rpg_life_title_bar">RPG Life</string>
-    <string name="bmb_rpg_life_description"></string>
+    <string name="bmb_rpg_life_description">
+        RPG Life is an app about taking real life progress and turning it into something more quantifiable.
+        Users will be able to add types of work and prescribe it to a particular stat (strength, intelligence,
+        dexterity, etc.). This will improve their stats and they will be able to have numbers to display actual growth
+        to motivate people for their progress.
+    </string>
 </resources>
