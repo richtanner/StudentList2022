@@ -36,6 +36,8 @@ public class MarlonMillerActivity extends AppCompatActivity implements AdapterVi
         languageList = (ListView)findViewById(R.id.App_MEMM);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, langArray);
         languageList.setAdapter(arrayAdapter);
+
+        languageList.setOnItemClickListener(this);
     }
 
     @Override
