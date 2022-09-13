@@ -1,6 +1,6 @@
 package com.example.studentlist2022;
 
-public interface RecyclerViewInterface
+public interface RecyclerViewInterfaceAGM
 {
     void onItemClick(int position);
 }

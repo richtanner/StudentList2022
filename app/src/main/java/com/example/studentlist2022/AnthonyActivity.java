@@ -3,12 +3,6 @@ package com.example.studentlist2022;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -17,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class AnthonyActivity extends AppCompatActivity implements RecyclerViewInterface {
+public class AnthonyActivity extends AppCompatActivity implements RecyclerViewInterfaceAGM {
 
     ArrayList<String> appIdeaList = new ArrayList<>();
     RecyclerView recyclerView;
@@ -41,7 +35,7 @@ public class AnthonyActivity extends AppCompatActivity implements RecyclerViewIn
         recyclerView = findViewById(R.id.AGM_RecyclerView);
         setUpList();
 
-        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, appIdeaList, this);
+        RecyclerViewAdapterAGM adapter = new RecyclerViewAdapterAGM(this, appIdeaList, this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
@@ -65,7 +59,7 @@ public class AnthonyActivity extends AppCompatActivity implements RecyclerViewIn
                 context.startActivity(intent);
                 break;
             case 1:
-                intent = new Intent(context, AppIdea2.class);
+                intent = new Intent(context, AppIdea2AGM.class);
                 context.startActivity(intent);
                 break;
         }

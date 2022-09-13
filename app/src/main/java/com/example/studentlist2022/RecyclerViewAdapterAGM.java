@@ -1,11 +1,9 @@
 package com.example.studentlist2022;
 
 import android.content.Context;
-import android.telecom.Call;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -13,13 +11,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
+public class RecyclerViewAdapterAGM extends RecyclerView.Adapter<RecyclerViewAdapterAGM.MyViewHolder> {
 
-    private final RecyclerViewInterface recyclerViewInterface;
+    private final RecyclerViewInterfaceAGM recyclerViewInterface;
     Context context;
     ArrayList<String> arrayList;
 
-    public RecyclerViewAdapter(Context context, ArrayList<String> arrayList, RecyclerViewInterface recyclerViewInterface)
+    public RecyclerViewAdapterAGM(Context context, ArrayList<String> arrayList, RecyclerViewInterfaceAGM recyclerViewInterface)
     {
         this.context = context;
         this.arrayList = arrayList;
@@ -27,14 +25,14 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
     @NonNull
     @Override
-    public RecyclerViewAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public RecyclerViewAdapterAGM.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.recycler_view_row, parent, false);
-        return new RecyclerViewAdapter.MyViewHolder(view, recyclerViewInterface);
+        return new RecyclerViewAdapterAGM.MyViewHolder(view, recyclerViewInterface);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerViewAdapter.MyViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerViewAdapterAGM.MyViewHolder holder, int position) {
         //Assigns values to the views
         holder.textViewTest.setText(arrayList.get(position));
     }
@@ -48,7 +46,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public static class MyViewHolder extends RecyclerView.ViewHolder
     {
         TextView textViewTest;
-        public MyViewHolder(@NonNull View itemView, RecyclerViewInterface recyclerViewInterface) {
+        public MyViewHolder(@NonNull View itemView, RecyclerViewInterfaceAGM recyclerViewInterface) {
             super(itemView);
 
             textViewTest = itemView.findViewById(R.id.textViewRecyclerView);
