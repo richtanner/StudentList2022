@@ -11,7 +11,7 @@ public class ProfTannerActivity extends AppCompatActivity {
     ListView languageList;
 
     // Array of strings...
-    String langArray[] = {
+    String[] langArray = {
             "C#",
             "Objective-C",
             "Swift",

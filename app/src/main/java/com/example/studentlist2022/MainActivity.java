@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         String personSelected = (String) simpleList.getAdapter().getItem(position);
 
 
-        /** do something cool based on the INDEX (int) of the selected item **/
+        // do something cool based on the INDEX (int) of the selected item
         switch (position)
         {
             case 10:
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
 
 
-        /** do something cool based on the exact VALUE (string) of the selected item **/
+        // do something cool based on the exact VALUE (string) of the selected item
         if (personSelected.equals("Prof Tanner, DET & CS"))
         {
             // go to a new activity

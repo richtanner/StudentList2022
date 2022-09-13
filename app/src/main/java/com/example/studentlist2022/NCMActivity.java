@@ -45,7 +45,7 @@ public class NCMActivity extends AppCompatActivity implements AdapterView.OnItem
         String appSelected = (String) appList.getAdapter().getItem(position);
 
 
-        /** do something cool based on the INDEX (int) of the selected item **/
+        // do something cool based on the INDEX (int) of the selected item
         switch (position)
         {
 //            case 10:
@@ -59,7 +59,7 @@ public class NCMActivity extends AppCompatActivity implements AdapterView.OnItem
         }
 
 
-        /** do something cool based on the exact VALUE (string) of the selected item **/
+        // do something cool based on the exact VALUE (string) of the selected item
         if (appSelected.equals("Mythos Tree"))
         {
             // go to a new activity
