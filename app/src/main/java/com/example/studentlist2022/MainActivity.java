@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     // Array of strings...
     // We could have also have created an empty array and then added each item individually using array.add type functions
     String[] peopleList = {
-            //test for branch pushhh
+            //test for branch pushhhh
             "Clayton Arnett, CS", //0
             "Griffin Barnard, CS",
             "Ben Blackmon, DET",
