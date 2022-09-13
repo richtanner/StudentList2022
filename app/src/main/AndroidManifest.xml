@@ -32,13 +32,28 @@
                 android:value=".AnthonyActivity" />
         </activity>
         <activity
+            android:name=".ACD_AppSuggestion_Details_Page"
+            android:exported="false"
+            android:parentActivityName=".AlissaDavisActivity">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".AlissaDavisActivity"
+            android:exported="false"
+            android:theme="@style/AlissaDavisCustomTheme"
+            android:label="Alissa's App Recommendations"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".ProfTannerActivity"
             android:exported="false"
             android:label="@string/rwt_title_bar"
             android:theme="@style/ProfTannerCustomTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".AnthonyActivity"
@@ -49,6 +64,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
         <activity
             android:name=".SingleListItem"
             android:exported="false" />

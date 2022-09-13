@@ -21,11 +21,17 @@
         <item name="colorAccent">@color/rwt_customRed</item>
     </style>
 
+    <style name="AlissaDavisCustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/acd_mediumGreen</item>
+        <item name="colorPrimaryDark">@color/acd_forestGreen</item>
+        <item name="colorAccent">@color/acd_lightChittimWood</item>
+    </style>
+
     <style name="AnthonyMoncivaisCustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <item name="colorPrimary">@color/dark_green</item>
-        <item name="colorSecondary">@color/dark_blue</item>
-        <item name="colorAccent">@color/neon_green</item>
-        <item name="android:colorBackground">@color/dark_blue</item>
+        <item name="colorPrimary">@color/am_dark_green</item>
+        <item name="colorSecondary">@color/am_dark_blue</item>
+        <item name="colorAccent">@color/am_neon_green</item>
+        <item name="android:colorBackground">@color/am_dark_blue</item>
     </style>
 
 </resources>
