@@ -14,4 +14,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="gjb_customBlue">#000000</color>
+    <color name="gjb_customBlueDark">#000000</color>
+    <color name="gjb_customRed">#000000</color>
+    <color name="gjb_grey">#B6B3B3</color>
+    <color name="gjb_black">#6834BC</color>
+    <color name="gjb_startcolor">#595CFF</color>
+    <color name="gjb_endcolor">#C6F8FF</color>
+    <color name="trans">#00232323</color>
 </resources>

@@ -4,4 +4,9 @@
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="rwt_title_bar">Prof Tanner String</string>
+    <string name="gjb_name">Griffin Barnard</string>
+    <string name="gjb_title">CS Student at ACU</string>
+    <string name="gjb_title_bar">Griffin\'s Really Cool Page</string>
+    <string name="gjb_ClassHelper_title_bar">Class Helper</string>
+    <string name="gjb_description">Have you ever found accountability when many miles away from home hard to find? Even if you haven\'t, no need to worry anymore! Class Helper is designed to solve all your problems(As long as they are the very specific problems CLass Helper was designed to solve). \n\n Class Helper provides a variety of ways to help you stay on top of your classes. It provides you reminders both an hour before your classes and immediately after to study and review. This is done to increase learning and retention. Class Helper will also prompt you on both Saturday and Sunday to enter your homework and its due times for the week. then Class helper will periodically remind you to due your homework, with increasing frequency as the deadline for the homework approaches.</string>
 </resources>

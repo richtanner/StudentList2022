@@ -14,17 +14,37 @@
         android:theme="@style/Theme.StudentList2022"
         tools:targetApi="31">
         <activity
+            android:name=".ClassHelperActivity"
+            android:exported="false"
+            android:label="@string/gjb_ClassHelper_title_bar"
+            android:theme="@style/GriffinBarnardCustomTheme">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".GriffinBarnardActivity" />
+        </activity>
+        <activity
             android:name=".ProfTannerActivity"
             android:exported="false"
             android:label="@string/rwt_title_bar"
             android:theme="@style/ProfTannerCustomTheme">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-
+        <activity
+            android:name=".GriffinBarnardActivity"
+            android:exported="false"
+            android:label="@string/gjb_title_bar"
+            android:theme="@style/GriffinBarnardCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".SingleListItem"
+            android:exported="false" />
+        <activity
+            android:name=".SingleListItemGJB"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

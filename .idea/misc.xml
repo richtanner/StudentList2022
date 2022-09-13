@@ -7,6 +7,15 @@
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.5359375" />
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_single_list_item.xml" value="0.55" />
+        <entry key="app/src/main/res/drawable/gradient_back.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/item_grad.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/round.xml" value="0.1605" />
+        <entry key="app/src/main/res/layout/activity_class_helper.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_griffin_barnard.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_prof_tanner.xml" value="0.1484375" />
+        <entry key="app/src/main/res/layout/activity_single_list_item.xml" value="0.1484375" />
+        <entry key="app/src/main/res/layout/activty_single_list_item_gjb.xml" value="0.29270833333333335" />
       </map>
     </option>
   </component>
