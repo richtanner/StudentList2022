@@ -19,7 +19,8 @@ public class gjo_main_list extends AppCompatActivity implements AdapterView.OnIt
     // We could have also have created an empty array and then added each item individually using array.add type functions
     String[] appList = {
             "Bear identification app", //0
-            "Homework to do list"//1
+            "Homework to do list",
+            "tic tac toe "//2
     };
 
     @Override
@@ -46,11 +47,11 @@ public class gjo_main_list extends AppCompatActivity implements AdapterView.OnIt
 
         /** do something cool based on the exact VALUE (string) of the selected item **/
 
-        if (personSelected.equals("Grayson Orcutt, DET"))
+        if (personSelected.equals("Bear identification app"))
         {
             // go to a new activity
             Context context = simpleList.getContext();
-            Intent intent = new Intent(context, gjo_main_list.class);
+            Intent intent = new Intent(context, bear_description.class);
             context.startActivity(intent);
         }
     }

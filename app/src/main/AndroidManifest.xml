@@ -14,6 +14,15 @@
         android:theme="@style/Theme.StudentList2022"
         tools:targetApi="31">
         <activity
+            android:name=".bear_description"
+            android:exported="false"
+            android:label="@string/gjo_bear_title"
+            android:theme="@style/GJOCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".gjo_main_list" />
+        </activity>
+        <activity
             android:name=".gjo_main_list"
             android:label="@string/gjo_title_bar"
             android:theme="@style/GJOCustomTheme">
