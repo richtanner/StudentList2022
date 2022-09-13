@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_main.xml" value="0.1597222222222222" />
+        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_mdog_app_ideas.xml" value="0.17674418604651163" />
+        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.1" />
+        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_single_list_item.xml" value="0.264" />
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_listview.xml" value="0.55" />
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.5359375" />

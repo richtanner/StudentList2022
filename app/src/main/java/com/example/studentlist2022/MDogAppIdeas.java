@@ -11,39 +11,22 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener
-{
+public class MDogAppIdeas extends AppCompatActivity implements AdapterView.OnItemClickListener {
     ListView simpleList;
 
     // Array of strings...
     // We could have also have created an empty array and then added each item individually using array.add type functions
     String[] peopleList = {
-            "Clayton Arnett, CS", //0
-            "Griffin Barnard, CS",
-            "Ben Blackmon, DET",
-            "Ben Briggs, DET",
-            "Alex Burgos, CS",
-            "Ethan Clayton, CS",
-            "Alissa Davis, DET",
-            "Evan Grau, CS",
-            "McLennan Jones, CS",
-            "Bailey Kimmel, CS",
-            "Noah Massie, DET",
-            "Marlon Miller Matute, CS",
-            "Anthony Moncivais, CS & DET",
-            "Lauren Najera, DET",
-            "Kelli Norris, DET",
-            "Grayson Orcutt, DET",
-            "Mike Rageur, CS",
-            "Cameron Wallace, DET",
-            "Prof Tanner, DET & CS" //18
+            "The Inventors App", //0
+            "Couple Buttons",
+            "Snack Raid"//3
     };
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_mdog_app_ideas);
 
         simpleList = (ListView)findViewById(R.id.simpleListView);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_single_list_item, R.id.textViewInLists, peopleList);
@@ -74,21 +57,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();
                 break;
         }
-
-
-        /** do something cool based on the exact VALUE (string) of the selected item **/
-        if (personSelected.equals("Prof Tanner, DET & CS"))
+        if (personSelected.equals("Couple Buttons"))
         {
             // go to a new activity
             Context context = simpleList.getContext();
-            Intent intent = new Intent(context, ProfTannerActivity.class);
-            context.startActivity(intent);
-        }
-        if (personSelected.equals("McLennan Jones, CS"))
-        {
-            // go to a new activity
-            Context context = simpleList.getContext();
-            Intent intent = new Intent(context, MDogAppIdeas.class);
+            Intent intent = new Intent(context, CoupleButtons.class);
             context.startActivity(intent);
         }
     }
