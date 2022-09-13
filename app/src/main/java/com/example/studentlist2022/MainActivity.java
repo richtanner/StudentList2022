@@ -11,6 +11,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener
 {
     ListView simpleList;
@@ -82,5 +84,19 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
         }
+    }
+
+    public void randoStudent(View view)
+    {
+        // we want a random number that we can match to the student list
+        Random r = new Random();
+        int max = 17;
+        int min = 0;
+        int random = r.nextInt(max-min+1)+min;
+        String mergePersonSelected = (String) simpleList.getAdapter().getItem(random);
+
+        // every case that wasn't specifically called out
+        Toast.makeText(this, mergePersonSelected + " is NEXT on MERGE MASTER MIXUP", Toast.LENGTH_SHORT).show();
+
     }
 }
