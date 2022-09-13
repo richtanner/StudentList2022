@@ -6,4 +6,6 @@
     <string name="rwt_title_bar">Prof Tanner String</string>
     <string name="MR_name">Mike Rageur</string>
     <string name="MR_Title">Computer Science</string>
+    <string name="MR_Title_Bar">Mike Rageur String</string>
+    <string name="MR_Livestream_App">What I planned on having for the livestream app is allowing the app to have web extension. Other competitors don\'t have the web extension features resulting mobile users missing out on the fun of raid or chat spam. Extentions like 7TV and BetterTV allows certain word to become GIF or picture.</string>
 </resources>
