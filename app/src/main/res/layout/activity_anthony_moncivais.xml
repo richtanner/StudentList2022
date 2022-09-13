@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_blue"
+    android:background="@color/am_dark_blue"
     tools:context=".ProfTannerActivity">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -20,7 +20,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:cardBackgroundColor="@color/dark_blue"
+        app:cardBackgroundColor="@color/am_dark_blue"
         app:layout_constraintBottom_toTopOf="@+id/AGM_RecyclerView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -90,6 +90,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, AnthonyActivity.class);
             context.startActivity(intent);
         }
+        if(personSelected.equals("Alissa Davis, DET"))
+        {
+            //Alissa One
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, AlissaDavisActivity.class);
+            context.startActivity(intent);
+        }
     }
 
     public void randoStudent(View view)
