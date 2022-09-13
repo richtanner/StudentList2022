@@ -4,4 +4,10 @@
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="rwt_title_bar">Prof Tanner String</string>
+    <string name="agm_name">Anthony Moncivais</string>
+    <string name="agm_title">CS and DET Student at ACU</string>
+    <string name="lvlup_title">Lvl Up</string>
+    <string name="lvlup_description">   An app to track things such as workouts, studying, diet etc... and provides players with a stats sheet just like those that can be found in RPGs. The idea is to get people that would normally invest a lot of time on leveling up a virtual character to spend some time leveling themselves up</string>
+    <string name="church_geolocator_title"> Church Geolocator</string>
+    <string name="church_geolocator_description"> An app to search the area around you to find churches in the area and provide you with basic information to get connected</string>
 </resources>
