@@ -7,14 +7,14 @@
     tools:context=".SingleListItem">
 
     <TextView
-        android:id="@+id/textViewInLists"
+        android:id="@+id/NCMListItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-light"
         android:padding="8dp"
         android:text="@string/placeholderName"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/black"
         android:textSize="22sp" />

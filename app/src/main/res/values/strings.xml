@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">CS 315 Student List: 2022</string>
     <string name="placeholderName">Names go HERE</string>
     <string name="rwt_name">Rich Tanner</string>
@@ -31,4 +31,12 @@
     <string name="lvlup_description">   An app to track things such as workouts, studying, diet etc... and provides players with a stats sheet just like those that can be found in RPGs. The idea is to get people that would normally invest a lot of time on leveling up a virtual character to spend some time leveling themselves up</string>
     <string name="church_geolocator_title"> Church Geolocator</string>
     <string name="church_geolocator_description"> An app to search the area around you to find churches in the area and provide you with basic information to get connected</string>
+
+    <!-- ncm strings -->
+    <string name="ncm_name">Noah Massie</string>
+    <string name="ncm_title">Senior Student of DET</string>
+    <string name="ncm_title_bar">Noah Massie Info</string>
+    <string name="ncm_app_title">Mythos Tree</string>
+    <string name="ncm_app_ideas">App Possibilities</string>
+    <string name="ncm_app_info">Interactive Mythological Tree which allows you to select a pantheon and then learn which gods were supposed to affect which aspects of life such as love, agriculture, war, and so on, while also providing their family trees and possibly the backgrounds/origins of the individual gods.</string>
 </resources>

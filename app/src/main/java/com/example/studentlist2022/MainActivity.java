@@ -61,9 +61,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         String personSelected = (String) simpleList.getAdapter().getItem(position);
 
 
-        /** do something cool based on the INDEX (int) of the selected item **/
+        // do something cool based on the INDEX (int) of the selected item
         switch (position)
         {
+            case 9:
+                Toast.makeText(this, personSelected + ", made this toast.", Toast.LENGTH_LONG).show();
+                break;
+
             case 17:
                 // by specific index
                 Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
@@ -76,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
 
 
-        /** do something cool based on the exact VALUE (string) of the selected item **/
+        // do something cool based on the exact VALUE (string) of the selected item
         if (personSelected.equals("Prof Tanner, DET & CS"))
         {
             // go to a new activity
@@ -84,13 +88,20 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
         }
-        if(personSelected.equals("Anthony Moncivais, CS & DET"))
+        else if(personSelected.equals("Noah Massie, DET"))
+        {
+            //waow new act
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, NCMActivity.class);
+            context.startActivity(intent);
+        }
+        else if(personSelected.equals("Anthony Moncivais, CS & DET"))
         {
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, AnthonyActivity.class);
             context.startActivity(intent);
         }
-        if(personSelected.equals("Alissa Davis, DET"))
+        else if(personSelected.equals("Alissa Davis, DET"))
         {
             //Alissa One
             Context context = simpleList.getContext();
