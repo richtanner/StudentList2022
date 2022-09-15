@@ -14,9 +14,9 @@ import android.widget.Toast;
 public class MikeRageurActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
 
     public static final String THING = "com.example.studentlist2022.INDEXINT";
-    ListView languageList;
+    ListView languagezList;
 
-    String langArray[] = {
+    String langzArray[] = {
             "A shopping app",
             "A video app",
             "A cookie clicker game but with tacos",
@@ -28,16 +28,16 @@ public class MikeRageurActivity extends AppCompatActivity implements AdapterView
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mike_rageur);
 
-        languageList = (ListView)findViewById(R.id.MR_ListView);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, langArray);
-        languageList.setAdapter(arrayAdapter);
-        languageList.setOnItemClickListener(this);
+        languagezList = (ListView)findViewById(R.id.MR_ListView);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, langzArray);
+        languagezList.setAdapter(arrayAdapter);
+        languagezList.setOnItemClickListener(this);
     }
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l)
     {
-        Context context = languageList.getContext();
+        Context context = languagezList.getContext();
         Intent gotopage = new Intent(context, MikeRageurActivity2.class);
         gotopage.putExtra(THING, String.valueOf(position));
         context.startActivity(gotopage);
