@@ -3,12 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Marlon Miller/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_marlon_miller.xml" value="0.6" />
+        <entry key="..\:/Users/Marlon Miller/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_mm_risky_world_accounting.xml" value="0.4" />
+        <entry key="..\:/Users/Marlon Miller/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.4" />
+        <entry key="..\:/Users/Marlon Miller/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_single_list_item.xml" value="0.4" />
+        <entry key="..\:/Users/baile/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_app_idea_blk.xml" value="0.2" />
+        <entry key="..\:/Users/baile/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/baile/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.1" />
+        <entry key="..\:/Users/baile/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_specialapp.xml" value="0.2" />
+        <entry key="..\:/Users/baile/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/bk_row.xml" value="0.1" />
         <entry key="..\:/Users/benmb/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_ben_blackmon.xml" value="0.33" />
         <entry key="..\:/Users/benmb/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_list_maker.xml" value="0.25" />
         <entry key="..\:/Users/benmb/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/benmb/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.33" />
         <entry key="..\:/Users/benmb/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_rpglife.xml" value="0.33" />
         <entry key="..\:/Users/benmb/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_single_list_item.xml" value="0.33" />
+        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_couple_buttons.xml" value="0.2" />
+        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_main.xml" value="0.1597222222222222" />
+        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_mdog_app_ideas.xml" value="0.17674418604651163" />
+        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.1" />
+        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_single_list_item.xml" value="0.264" />
         <entry key="..\:/Users/cinde/AndroidStudioProjects/StudentList2022/app/src/main/res/drawable/border.xml" value="0.1945" />
         <entry key="..\:/Users/cinde/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_anthony_moncivais.xml" value="0.2847222222222222" />
         <entry key="..\:/Users/cinde/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_app_idea2.xml" value="0.18796296296296297" />
@@ -20,28 +34,14 @@
         <entry key="..\:/Users/cinde/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/recycler_view_row.xml" value="0.4" />
         <entry key="..\:/Users/drtoa/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_ncmactivity.xml" value="0.275" />
         <entry key="..\:/Users/drtoa/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_single_list_item.xml" value="0.20364583333333333" />
-        <entry key="..\:/Users/baile/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_app_idea_blk.xml" value="0.2" />
-        <entry key="..\:/Users/baile/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/baile/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.1" />
-        <entry key="..\:/Users/baile/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_specialapp.xml" value="0.2" />
-        <entry key="..\:/Users/baile/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/bk_row.xml" value="0.1" />
-        <entry key="..\:/Users/Marlon Miller/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_marlon_miller.xml" value="0.6" />
-        <entry key="..\:/Users/Marlon Miller/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_mm_risky_world_accounting.xml" value="0.4" />
-        <entry key="..\:/Users/Marlon Miller/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.4" />
-        <entry key="..\:/Users/Marlon Miller/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_single_list_item.xml" value="0.4" />
-        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_couple_buttons.xml" value="0.2" />
-        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_main.xml" value="0.1597222222222222" />
-        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_mdog_app_ideas.xml" value="0.17674418604651163" />
-        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.1" />
-        <entry key="..\:/Users/bentl/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_single_list_item.xml" value="0.264" />
-        <entry key="..\:/Users/rageu/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/rageu/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_mike_rageur.xml" value="0.33" />
-        <entry key="..\:/Users/rageu/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_mike_rageur2.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/rageu/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.5184478371501272" />
+        <entry key="..\:/Users/rageu/AndroidStudioProjects/StudentLists2022/app/src/main/res/layout/activity_mike_rageur.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_listview.xml" value="0.55" />
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_prof_tanner.xml" value="0.5359375" />
         <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022/app/src/main/res/layout/activity_single_list_item.xml" value="0.55" />
+        <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022_TEST/app/src/main/res/layout/activity_main.xml" value="0.2579034941763727" />
+        <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022_TEST/app/src/main/res/layout/activity_prof_tanner.xml" value="0.3625" />
+        <entry key="..\:/Users/rwt07/AndroidStudioProjects/StudentList2022_TEST/app/src/main/res/layout/activity_single_list_item.xml" value="0.31296296296296294" />
       </map>
     </option>
   </component>

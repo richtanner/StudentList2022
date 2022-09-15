@@ -37,9 +37,27 @@ public class MikeRageurActivity extends AppCompatActivity implements AdapterView
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l)
     {
-        Context context = languagezList.getContext();
-        Intent gotopage = new Intent(context, MikeRageurActivity2.class);
-        gotopage.putExtra(THING, String.valueOf(position));
-        context.startActivity(gotopage);
+        String appSelected = (String) languagezList.getAdapter().getItem(position);
+        /** do something cool based on the INDEX (int) of the selected item **/
+        switch (position)
+        {
+            case 16:
+                // by specific index
+                Toast.makeText(this, appSelected + " app selected", Toast.LENGTH_LONG).show();
+                break;
+
+            default:
+                // every case that wasn't specifically called out
+                Toast.makeText(this, appSelected + " selected", Toast.LENGTH_LONG).show();
+                break;
+        }
+
+        if (appSelected.equals("Livestream app")) //
+        {
+            // go to a new activity
+            Context context = languagezList.getContext();
+            Intent intent = new Intent(context, MikeRageurActivity2.class);
+            context.startActivity(intent);
+        }
     }
 }

@@ -68,7 +68,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 9:
                 Toast.makeText(this, personSelected + ", made this toast.", Toast.LENGTH_LONG).show();
                 break;
-
             case 17:
                 // by specific index
                 Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
