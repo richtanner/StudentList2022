@@ -71,4 +71,11 @@
         <item name="colorPrimary">@color/MR_customLightBlue</item>
     </style>
 
+    <style name="LN_CustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/LN_My_Color2</item>
+        <item name="colorPrimaryDark">@color/LN_My_Color4</item>
+        <item name="colorAccent">@color/LN_My_Color3</item>
+    </style>
+
 </resources>

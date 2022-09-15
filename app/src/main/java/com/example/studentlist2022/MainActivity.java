@@ -155,5 +155,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         // every case that wasn't specifically called out
         Toast.makeText(this, mergePersonSelected + " is NEXT on MERGE MASTER MIXUP", Toast.LENGTH_SHORT).show();
 
+
+        else if (personSelected.equals("Lauren Najera, DET"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, LaurenNajera.class);
+            context.startActivity(intent);
+        }
     }
 }

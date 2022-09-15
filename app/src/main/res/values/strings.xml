@@ -83,4 +83,20 @@
     <string name="MR_Title">Computer Science</string>
     <string name="MR_Title_Bar">Mike Rageur String</string>
     <string name="MR_Livestream_App">What I planned on having for the livestream app is allowing the app to have web extension. Other competitors don\'t have the web extension features resulting mobile users missing out on the fun of raid or chat spam. Extentions like 7TV and BetterTV allows certain word to become GIF or picture.</string>
+
+    <string name="DLAF_LN">
+        An app that will consist of 2 sections, one for lost dogs, and one for found dogs.
+        This allows the user to input any information about any dogs that are lost and/or found.
+        This app will also notify the user if there is any matching information when the 2 sections are compared.
+
+        Future Goals:
+        Adding in location services for near by areas.
+    </string>
+
+    <string name="LN_name">Lauren Najera</string>
+    <string name="LN_title">Student of DET</string>
+    <string name="LN_title_bar">Lauren\'s App Ideas</string>
+
+    <string name="Doggy_title_bar">Doggy Lost and Found</string>
+
 </resources>

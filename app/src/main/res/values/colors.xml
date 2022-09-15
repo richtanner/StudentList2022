@@ -42,4 +42,12 @@
     <color name="darker_pink">#A61681</color>
     <color name="MM_greenAOT">#228B22</color>
     <color name="MR_customLightBlue">#2EF9C5</color>
+
+
+
+    <color name="LN_My_Color1">#BD0000</color>
+    <color name="LN_My_Color2">#0038E1</color>
+    <color name="LN_My_Color3">#267E01</color>
+    <color name="LN_My_Color4">#B60094</color>
+
 </resources>

@@ -14,6 +14,28 @@
         android:theme="@style/Theme.StudentList2022"
         tools:targetApi="31">
         <activity
+            android:name=".DoggyLostAndFound"
+            android:exported="false"
+            android:label="@string/Doggy_title_bar"
+            android:theme="@style/LN_CustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LaurenNajera" />
+
+        </activity>
+            />
+        <activity
+            android:name=".LaurenNajera"
+            android:exported="false"
+            android:label="@string/LN_title_bar"
+            android:theme="@style/LN_CustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+        <activity
             android:name=".RPGLifeActivity"
             android:exported="false"
             android:label="@string/bmb_rpg_life_title_bar"
@@ -186,6 +208,9 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".AnthonyActivity"
@@ -199,7 +224,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
         <activity
             android:name=".SingleListItem"
             android:exported="false" />
