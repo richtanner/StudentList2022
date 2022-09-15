@@ -89,6 +89,25 @@
             android:exported="false" />
         </activity>
         <activity
+            android:name=".CoupleButtons"
+            android:exported="false"
+            android:label="@string/MJ_Title"
+            android:theme="@style/MDogTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MDogAppIdeas" />
+        </activity>
+        <activity
+            android:name=".MDogAppIdeas"
+            android:exported="true"
+            android:label="@string/MJ_Title"
+            android:theme="@style/MDogTheme">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ProfTannerActivity"
             android:exported="false"
             android:label="@string/rwt_title_bar"
@@ -109,6 +128,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
         <activity
             android:name=".SingleListItem"
             android:exported="false" />

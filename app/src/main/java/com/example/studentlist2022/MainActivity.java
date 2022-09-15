@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Ben Blackmon, DET",
             "Ben Briggs, DET",
             "Alex Burgos, CS",
+            "Ethan Clayton, CS",
             "Alissa Davis, DET",
             "Evan Grau, CS",
             "McLennan Jones, CS",
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Grayson Orcutt, DET",
             "Mike Rageur, CS",
             "Cameron Wallace, DET",
-            "Prof Tanner, DET & CS" //17
+            "Prof Tanner, DET & CS" //18
     };
 
     @Override
@@ -62,6 +63,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
 
         // do something cool based on the INDEX (int) of the selected item
+        /** do something cool based on the INDEX (int) of the selected item **/
+        /** but like, just a suggestion here, what if we just watched shrek? **/
         switch (position)
         {
             case 9:
@@ -86,6 +89,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected.equals("McLennan Jones, CS"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, MDogAppIdeas.class);
             context.startActivity(intent);
         }
         else if(personSelected.equals("Noah Massie, DET"))
