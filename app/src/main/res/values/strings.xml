@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">CS 315 Student List: 2022</string>
     <string name="placeholderName">Names go HERE</string>
     <string name="rwt_name">Rich Tanner</string>
@@ -51,4 +51,6 @@
     <string name="MM_RW_2">This app is fully dynamic, where administrators can add, delete or change information constantly by accessing their accounts, modifying records and assigning tasks to several other administrators and users.
 </string>
     <string name="MM_RW_3">Risky World is an accountability prototype system architecture designed to implement basic security to several roles for users, implement basic parameters and functionalities in the applications, building registration, wholesale in accounting items and a clean and integral financial status for the company.</string>
+    <string name="MJ_Title">MDog\'s Incrediblely Bad Ideas</string>
+    <string name="MJ_Text">I wanted to elaborate more on the apps I thought about creating. The inventors app is an app where inventors can post new ideas and request funds, material, and assistance. The Snack Raid app is an app that keeps track of the snackage in your house and has a randomizer if you dont know what to snack on. Lastly, have you ever wanted to capatilize..I mean spread the new online age of dating? Why spend over a hundred dollars on a cheap bluetooth LED when you can spend 1 dollar on a cheap piece of software! With Couple Buttons, you can now instagate (that means start) conversations with your partner. Simply register thier phone number as well as your own, create your buttons, and chat with the ease of a simple push.</string>
 </resources>
