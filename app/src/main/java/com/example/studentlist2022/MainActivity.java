@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Ben Blackmon, DET",
             "Ben Briggs, DET",
             "Alex Burgos, CS",
+            "Ethan Clayton, CS",
             "Alissa Davis, DET",
             "Evan Grau, CS",
             "McLennan Jones, CS",
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Grayson Orcutt, DET",
             "Mike Rageur, CS",
             "Cameron Wallace, DET",
-            "Prof Tanner, DET & CS" //17
+            "Prof Tanner, DET & CS" //18
     };
 
     @Override
@@ -61,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         String personSelected = (String) simpleList.getAdapter().getItem(position);
 
 
-        // do something cool based on the INDEX (int) of the selected item
+        /** do something cool based on the INDEX (int) of the selected item **/
         switch (position)
         {
             case 9:
@@ -80,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
 
 
-        // do something cool based on the exact VALUE (string) of the selected item
+        /** do something cool based on the exact VALUE (string) of the selected item **/
         if (personSelected.equals("Prof Tanner, DET & CS"))
         {
             // go to a new activity
@@ -126,6 +127,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, AppIdeaActivity_blk.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected.equals("Ben Blackmon, DET"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, BenBlackmonActivity.class);
             context.startActivity(intent);
         }
     }

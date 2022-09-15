@@ -53,4 +53,30 @@
     <string name="MM_RW_3">Risky World is an accountability prototype system architecture designed to implement basic security to several roles for users, implement basic parameters and functionalities in the applications, building registration, wholesale in accounting items and a clean and integral financial status for the company.</string>
     <string name="MJ_Title">MDog\'s Incrediblely Bad Ideas</string>
     <string name="MJ_Text">I wanted to elaborate more on the apps I thought about creating. The inventors app is an app where inventors can post new ideas and request funds, material, and assistance. The Snack Raid app is an app that keeps track of the snackage in your house and has a randomizer if you dont know what to snack on. Lastly, have you ever wanted to capatilize..I mean spread the new online age of dating? Why spend over a hundred dollars on a cheap bluetooth LED when you can spend 1 dollar on a cheap piece of software! With Couple Buttons, you can now instagate (that means start) conversations with your partner. Simply register thier phone number as well as your own, create your buttons, and chat with the ease of a simple push.</string>
+
+
+
+    <string name="bmb_name">Benjamin Blackmon</string>
+    <string name="bmb_title">Senior DET Major</string>
+    <string name="bmb_title_bar">Benjamin\'s App Ideas</string>
+    <string name="bmb_list_maker_title_bar">List Maker</string>
+    <string name="bmb_list_maker_description">
+        List Maker is a super customizable list creator.
+        There will be one main view where you can add "categories" to it. A category can have another category added to it,
+        or a list. A list is comprised of a bunch of smaller items that can be given a priority,
+        a date, and have reminders set on it for notifications. The main view can have categories and lists added to it
+        so you can see only lists in the category for "school", or perhaps only one list for when you go shopping.
+        This is to get the best parts of the inheritance system (where we can store categories and lists inside of other
+        categories for organizational purposes), while also being able to show multiple lists at the same time (say,
+        multiple classes for school). The items shown in the main view can be sorted by priority, due date, reminder date,
+        or alphabetically (and any other types of sorting things that might be helpful.
+    </string>
+
+    <string name="bmb_rpg_life_title_bar">RPG Life</string>
+    <string name="bmb_rpg_life_description">
+        RPG Life is an app about taking real life progress and turning it into something more quantifiable.
+        Users will be able to add types of work and prescribe it to a particular stat (strength, intelligence,
+        dexterity, etc.). This will improve their stats and they will be able to have numbers to display actual growth
+        to motivate people for their progress.
+    </string>
 </resources>

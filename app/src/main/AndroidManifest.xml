@@ -14,6 +14,38 @@
         android:theme="@style/Theme.StudentList2022"
         tools:targetApi="31">
         <activity
+            android:name=".RPGLifeActivity"
+            android:exported="false"
+            android:label="@string/bmb_rpg_life_title_bar"
+            android:theme="@style/BenBlackmonCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BenBlackmonActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".ListMaker"
+            android:exported="false"
+            android:label="@string/bmb_list_maker_title_bar"
+            android:theme="@style/BenBlackmonCustomTheme">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".BenBlackmonActivity" />
+        </activity>
+
+        <activity
+            android:name=".BenBlackmonActivity"
+            android:exported="false"
+            android:label="@string/bmb_title_bar"
+            android:theme="@style/BenBlackmonCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+        <activity
             android:name=".MM_RiskyWorldAccounting"
             android:exported="false"
             android:label="@string/MM_appTitle_bar"
@@ -145,6 +177,9 @@
             android:exported="false"
             android:label="Anthony Moncivais"
             android:theme="@style/AnthonyMoncivaisCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
