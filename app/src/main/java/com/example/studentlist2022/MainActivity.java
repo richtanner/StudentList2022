@@ -85,6 +85,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
         }
+
+        else if (personSelected.equals("Marlon Miller Matute, CS")) {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, MarlonMillerActivity.class);
+            context.startActivity(intent);
+        }
         else if(personSelected.equals("Noah Massie, DET"))
         {
             //waow new act
@@ -125,12 +131,5 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         // every case that wasn't specifically called out
         Toast.makeText(this, mergePersonSelected + " is NEXT on MERGE MASTER MIXUP", Toast.LENGTH_SHORT).show();
-
-
-//        if (personSelected.equals("Marlon Miller Matute, CS")) {
-//            Context context = simpleList.getContext();
-//            Intent intent = new Intent(context, MarlonMillerActivity.class);
-//            context.startActivity(intent);
-//        }
     }
 }
