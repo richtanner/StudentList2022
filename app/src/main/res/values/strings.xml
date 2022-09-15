@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">CS 315 Student List: 2022</string>
     <string name="placeholderName">Names go HERE</string>
     <string name="rwt_name">Rich Tanner</string>
@@ -79,4 +79,8 @@
         dexterity, etc.). This will improve their stats and they will be able to have numbers to display actual growth
         to motivate people for their progress.
     </string>
+    <string name="MR_name">Mike Rageur</string>
+    <string name="MR_Title">Computer Science</string>
+    <string name="MR_Title_Bar">Mike Rageur String</string>
+    <string name="MR_Livestream_App">What I planned on having for the livestream app is allowing the app to have web extension. Other competitors don\'t have the web extension features resulting mobile users missing out on the fun of raid or chat spam. Extentions like 7TV and BetterTV allows certain word to become GIF or picture.</string>
 </resources>

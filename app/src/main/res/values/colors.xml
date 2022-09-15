@@ -7,9 +7,6 @@
     <color name="rwt_customBlue">#315A70</color>
     <color name="rwt_customBlueDark">#182d38</color>
     <color name="rwt_customRed">#a43c43</color>
-    <color name="MDog_Black">#000000</color>
-    <color name="MDog_Yellow">#D6B70D</color>
-    <color name="MDog_Red">#650A10</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -41,4 +38,5 @@
     <color name="baby_pink">#EEACDD</color>
     <color name="darker_pink">#A61681</color>
     <color name="MM_greenAOT">#228B22</color>
+    <color name="MR_customLightBlue">#2EF9C5</color>
 </resources>
