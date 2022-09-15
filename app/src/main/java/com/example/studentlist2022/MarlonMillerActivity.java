@@ -59,7 +59,7 @@ public class MarlonMillerActivity extends AppCompatActivity implements AdapterVi
         }
 
         //String appSelected = (String) languageList.getAdapter().getItem(position);
-        if (appSelected.equals("Risky World Accounting"))
+        if (appSelected.equals("Risky World Accounting")) //
         {
             // go to a new activity
             Context context = languageList.getContext();
