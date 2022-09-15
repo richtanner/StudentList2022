@@ -13,7 +13,6 @@ import android.widget.Toast;
 
 public class MikeRageurActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
 
-    public static final String THING = "com.example.studentlist2022.INDEXINT";
     ListView languagezList;
 
     String langzArray[] = {
@@ -29,7 +28,7 @@ public class MikeRageurActivity extends AppCompatActivity implements AdapterView
         setContentView(R.layout.activity_mike_rageur);
 
         languagezList = (ListView)findViewById(R.id.MR_ListView);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, langzArray);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_activated_1, langzArray);
         languagezList.setAdapter(arrayAdapter);
         languagezList.setOnItemClickListener(this);
     }
@@ -38,7 +37,6 @@ public class MikeRageurActivity extends AppCompatActivity implements AdapterView
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l)
     {
         String appSelected = (String) languagezList.getAdapter().getItem(position);
-        /** do something cool based on the INDEX (int) of the selected item **/
         switch (position)
         {
             case 16:
