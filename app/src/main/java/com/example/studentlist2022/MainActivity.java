@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     // We could have also have created an empty array and then added each item individually using array.add type functions
     // Ethan isn't in this class anymore, silly
     String[] peopleList = {
+            //test for branch pushhhhh
             "Clayton Arnett, CS", //0
             "Griffin Barnard, CS", // second coolest student in this class
             "Ben Blackmon, DET",
@@ -92,6 +93,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
+            context.startActivity(intent);
+        }
+        if (personSelected.equals("Griffin Barnard, CS"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, GriffinBarnardActivity.class);
             context.startActivity(intent);
         }
 

@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfTannerActivity"
+    tools:context=".GriffinBarnardActivity"
+    android:background="@drawable/gradient_back"
     >
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -13,10 +15,10 @@
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:contentDescription="@string/rwt_name"
+        android:contentDescription="@string/gjb_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/legoprof" />
+        app:srcCompat="@drawable/gm" />
 
     <TextView
         android:id="@+id/ReloadingText"
@@ -25,10 +27,11 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/rwt_name"
+        android:text="@string/gjb_name"
         android:textAlignment="viewStart"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
@@ -37,10 +40,11 @@
         android:id="@+id/Reloadingtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/gjb_grey"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/rwt_title"
+        android:text="@string/gjb_title"
         android:textAlignment="viewStart"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,15 +52,16 @@
         app:layout_constraintTop_toBottomOf="@+id/ReloadingText" />
 
     <ListView
-        android:id="@+id/rwt_ListView"
+        android:divider="@color/trans"
+        android:dividerHeight="4dp"
+        android:id="@+id/GJB_ListView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
