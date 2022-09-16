@@ -105,4 +105,8 @@
     <string name="ekg_third_title_bar">Bible App But Better</string>
     <string name="ekg_bible_content">In my new Bible app, you can do everything your old Bible app could do, like reading the Bible, doing devotionals, and setting reading plans, but I\'m also bringing back INDULGENCES!! Need to get into heaven for sure? Just pay your way straight to the pearly gates! All it takes is a measly $100,000 per person straight to my bank accou- I mean God! So what do you say? You want your boring old Bible app, or do you want the Bible app, but better?</string>
     <string name="todo">TODO</string>
+
+    <string name="kelli_name">Kelli Norris</string>
+    <string name="kelli_title">Student of DET</string>
+    <string name="kelli_title_bar">Notes App</string>
 </resources>

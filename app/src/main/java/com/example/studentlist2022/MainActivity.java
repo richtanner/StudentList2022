@@ -94,6 +94,30 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
         }
+
+        /** do something cool based on the INDEX (int) of the selected item **/
+        switch (position)
+        {
+            case 14:
+                // by specific index
+                Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
+                break;
+
+            default:
+                // every case that wasn't specifically called out
+                Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();
+                break;
+        }
+
+
+        /** do something cool based on the exact VALUE (string) of the selected item **/
+        if (personSelected.equals("Kelli Norris, DET"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, activity_Kelli_Norris.class);
+            context.startActivity(intent);
+        }
         else if (personSelected.equals("Mike Rageur, CS"))
         {
             Context context = simpleList.getContext();
@@ -175,4 +199,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         // every case that wasn't specifically called out
         Toast.makeText(this, mergePersonSelected + " is NEXT on MERGE MASTER MIXUP", Toast.LENGTH_SHORT).show();
     }
+
+
+
+
 }
