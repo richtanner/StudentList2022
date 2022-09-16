@@ -12,7 +12,7 @@ import android.widget.AdapterView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-
+//s
 public class AlissaDavisActivity extends AppCompatActivity implements ACD_RecyclerViewInterface{
 
     ArrayList<ACD_AppSuggestionsModel> acd_appSuggestionsModels = new ArrayList<>();
