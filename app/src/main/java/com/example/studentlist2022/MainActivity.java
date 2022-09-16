@@ -19,15 +19,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     // Array of strings...
     // We could have also have created an empty array and then added each item individually using array.add type functions
+    // Ethan isn't in this class anymore, silly
     String[] peopleList = {
             "Clayton Arnett, CS", //0
-            "Griffin Barnard, CS",
+            "Griffin Barnard, CS", // second coolest student in this class
             "Ben Blackmon, DET",
             "Ben Briggs, DET",
             "Alex Burgos, CS",
-            "Ethan Clayton, CS",
             "Alissa Davis, DET",
-            "Evan Grau, CS",
+            "Evan Grau, CS", // coolest student in this class, according to my calculations
             "McLennan Jones, CS",
             "Bailey Kimmel, CS",
             "Noah Massie, DET",
@@ -68,9 +68,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 9:
                 Toast.makeText(this, personSelected + ", made this toast.", Toast.LENGTH_LONG).show();
                 break;
+
             case 17:
                 // by specific index
                 Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
+                break;
+
+            case 6:
+                // it's me!
+                Toast.makeText(this, personSelected + " is trying his best!", Toast.LENGTH_LONG).show();
                 break;
 
             default:
@@ -146,6 +152,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, LaurenNajera.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected.equals("Evan Grau, CS"))
+        {
+            // go to my activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, EvanGrauActivity.class);
             context.startActivity(intent);
         }
     }

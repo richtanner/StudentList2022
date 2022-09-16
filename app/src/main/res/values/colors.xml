@@ -17,6 +17,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="ekg_customRedDark">#870000</color>
+    <color name="ekg_customRed">#FFE80000</color>
+    <color name="ekg_customPurple">#4B325A</color>
 
     <color name="BMB_custom_blue">#1C60D5</color>
     <color name="BMB_custom_orange">#DF7240</color>

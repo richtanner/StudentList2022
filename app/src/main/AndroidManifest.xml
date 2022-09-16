@@ -195,10 +195,31 @@
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".MainActivity" />
         <activity
+            android:name=".EKGThirdActivity"
+            android:exported="false"
+            android:label="@string/ekg_third_title_bar"
+            android:theme="@style/EvanGrauCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EvanGrauActivity" />
+        </activity>
+        <activity
+            android:name=".EvanGrauActivity"
+            android:exported="false"
+            android:label="@string/ekg_title_bar"
+            android:theme="@style/EvanGrauCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ProfTannerActivity"
             android:exported="false"
             android:label="@string/rwt_title_bar"
             android:theme="@style/ProfTannerCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

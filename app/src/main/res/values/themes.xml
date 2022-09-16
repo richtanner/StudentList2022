@@ -78,4 +78,10 @@
         <item name="colorAccent">@color/LN_My_Color3</item>
     </style>
 
+    <style name="EvanGrauCustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/ekg_customRed</item>
+        <item name="colorPrimaryDark">@color/ekg_customRedDark</item>
+        <item name="colorAccent">@color/ekg_customPurple</item>
+    </style>
+
 </resources>
