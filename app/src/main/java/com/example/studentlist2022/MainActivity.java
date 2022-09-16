@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
         else if(personSelected.equals("Noah Massie, DET"))
         {
-            //waow new act
+            //waow new actt
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, NCMActivity.class);
             context.startActivity(intent);
