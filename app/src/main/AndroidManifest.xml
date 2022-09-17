@@ -15,15 +15,6 @@
         tools:targetApi="31">
 
         <activity
-            android:name=".AlexB_Activity"
-            android:label="@string/ab_title_bar"
-            android:parentActivityName=".MainActivity" />
-
-        <activity
-            android:name=".AB_AppSuggestions_Details"
-            android:parentActivityName=".AlexB_Activity" />
-
-        <activity
             android:name=".ProfTannerActivity"
             android:exported="false"
             android:label="@string/rwt_title_bar"
