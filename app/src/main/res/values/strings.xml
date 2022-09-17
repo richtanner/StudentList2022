@@ -9,4 +9,18 @@
     <string name="ab_title_bar">Alexander Burgos, CS</string>
     <string name="ab_name">Alexander Burgos</string>
     <string name="ab_title">CS Master Race</string>
+
+    <string-array name="ab_appSuggestions_stringArray">
+        <item>Tarkov Gucci Gear Optimizer</item>
+        <item>OnlyWaifus</item>
+    </string-array>
+
+    <string-array name="ab_appDescriptions_stringArray">
+        <item>Learn how to gear up like a Chad.</item>
+        <item>One-stop shop for waifu merch.</item>
+    </string-array>
+
+    <string-array name="ab_appMoreInfo_stringArray">
+
+    </string-array>
 </resources>

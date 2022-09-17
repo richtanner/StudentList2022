@@ -1,75 +1,47 @@
 package com.example.studentlist2022;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 
-public class AlexB_Activity extends AppCompatActivity {
+import java.util.ArrayList;
+
+public class AlexB_Activity extends AppCompatActivity implements AB_RecyclerView_Interface{
+
+    //Grabs string arrays from resources
+    ArrayList<AB_AppSuggestions> ab_appSuggestions = new ArrayList<>();
+    //int[] AB_ImageInfo =
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alex_bactivity);
+
+        //Initiate recyclerView
+        RecyclerView ab_recyclerView = findViewById(R.id.activity_ab_recyclerView);
     }
 
+    private void Initiate_AB_AppSuggestions(){
+        String[] AB_appSuggestionsNames = getResources().getStringArray(R.array.ab_appSuggestions_stringArray);
+        String[] AB_appSuggestionsDetails = getResources().getStringArray(R.array.ab_appDescriptions_stringArray);
+        String[] AB_appSuggestionsMoreInfo = getResources().getStringArray(R.array.ab_appMoreInfo_stringArray);
 
-    public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder> {
-
-        private String[] localDataSet;
-
-        /**
-         * Provide a reference to the type of views that you are using
-         * (custom ViewHolder).
-         */
-        public static class ViewHolder extends RecyclerView.ViewHolder {
-            private final TextView textView;
-
-            public ViewHolder(View view) {
-                super(view);
-                // Define click listener for the ViewHolder's View
-
-                textView = (TextView) view.findViewById(R.id.textView);
-            }
-
-            public TextView getTextView() {
-                return textView;
-            }
-        }
-
-        /**
-         * Initialize the dataset of the Adapter.
-         *
-         * @param dataSet String[] containing the data to populate views to be used
-         * by RecyclerView.
-         */
-        public CustomAdapter(String[] dataSet) {
-            localDataSet = dataSet;
-        }
-
-        // Create new views (invoked by the layout manager)
-        @Override
-        public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
-            // Create a new view, which defines the UI of the list item
-            View view = LayoutInflater.from(viewGroup.getContext())
-                    .inflate(R.layout.text_row_item, viewGroup, false);
-
-            return new ViewHolder(view);
-        }
-
-        // Replace the contents of a view (invoked by the layout manager)
-        @Override
-        public void onBindViewHolder(ViewHolder viewHolder, final int position) {
-
-            // Get element from your dataset at this position and replace the
-            // contents of the view with that element
-            viewHolder.getTextView().setText(localDataSet[position]);
-        }
-
-        // Return the size of your dataset (invoked by the layout manager)
-        @Override
-        public int getItemCount() {
-            return localDataSet.length;
+        for(int i = 0; i < AB_appSuggestionsNames.length; i++){
+            ab_appSuggestions.add(new AB_AppSuggestions(AB_appSuggestionsNames[i],
+                    AB_appSuggestionsDetails [i],
+                    AB_appSuggestionsMoreInfo[i],
+                    ab_)
         }
     }
 
+    @Override
+    public void onItemClick(int position){
+        Intent intent = new Intent(AlexB_Activity.this, AB_AppSuggestions_Details.class);
+        Intent.putExtra("Name", ab_appSuggestions.get(position).getAB_AppName());
+        Intent.putExtra("Details", ab_appSuggestions.get(position).getAB_AppDetails());
+        Intent.putExtra("MoreInfo", ab_appSuggestions.get(position).getAB_MoreInfo());
+        startActivity(intent);
+    }
 }

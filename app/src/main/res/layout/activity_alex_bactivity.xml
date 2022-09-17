@@ -7,7 +7,7 @@
     tools:context=".AlexB_Activity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/ab_profileImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -26,7 +26,7 @@
         android:text="@string/ab_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/ab_profileImageView"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -39,14 +39,17 @@
         tools:layout_editor_absoluteX="207dp" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/activity_ab_recyclerView"
         android:layout_width="411dp"
         android:layout_height="565dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="21dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
+        android:background="#C3C3C3"
+        android:fadingEdge="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/ab_profileImageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

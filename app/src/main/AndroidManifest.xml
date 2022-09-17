@@ -17,7 +17,11 @@
         <activity
             android:name=".AlexB_Activity"
             android:label="@string/ab_title_bar"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".AB_AppSuggestions_Details"
+            android:parentActivityName=".AlexB_Activity" />
 
         <activity
             android:name=".ProfTannerActivity"

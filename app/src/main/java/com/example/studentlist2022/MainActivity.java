@@ -84,9 +84,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             context.startActivity(intent);
         }
 
-        if (personSelected.equals("Alex Burgos, CS"))
+        else if (personSelected.equals("Alex Burgos, CS"))
         {
-            // go to a new activity
+            //Goes to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, AlexB_Activity.class);
             context.startActivity(intent);
