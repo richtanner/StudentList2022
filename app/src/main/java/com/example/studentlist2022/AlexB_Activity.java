@@ -8,33 +8,33 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
-public class AlexB_Activity extends AppCompatActivity implements AlexB_RecyclerView_Interface{
-
-    //Gets string array from resources
-    String[] appSuggestions = getResources().getStringArray(R.array.ab_appSuggestions_stringArray);
+public class AlexB_Activity extends AppCompatActivity implements AlexB_RecyclerView_Interface {
 
     RecyclerView recyclerView;
+    ArrayList<String> appSuggestions = new ArrayList<>();
+    String[] appNames = {
+            "Tarkov Chad",
+            "Only Waifus"
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alexb);
 
-        recyclerView = findViewById(R.id.alexb_recyclerView);
+        RecyclerView recyclerView= findViewById(R.id.alexb_recyclerView);
         setUpList();
 
-        //Calls the RecyclerView Adapter from AlexB_RecyclerView_Adapter
         AlexB_RecyclerView_Adapter adapter = new AlexB_RecyclerView_Adapter(this, appSuggestions, this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
-    private List<String> setUpList(){
-
-        return Arrays.asList(appSuggestions);
+    private void setUpList(){
+        appSuggestions.addAll((Arrays.asList(appNames)));
     }
 
     @Override
