@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
+
 public class AlexB_RecyclerView_Adapter extends RecyclerView.Adapter<AlexB_RecyclerView_Adapter.AlexB_ViewHolder> {
 
     //Retrieves the recyclerView Interface
@@ -16,10 +18,10 @@ public class AlexB_RecyclerView_Adapter extends RecyclerView.Adapter<AlexB_Recyc
     Context context;
 
     //Holds the app suggestions string from parent AlexB_Activity.
-    String[] appSuggestions;
+    ArrayList<String> appSuggestions;
 
     //Constructor
-    public AlexB_RecyclerView_Adapter(Context context, String[] appSuggestions, AlexB_RecyclerView_Interface alexB_recyclerView_interface){
+    public AlexB_RecyclerView_Adapter(Context context, ArrayList<String> appSuggestions, AlexB_RecyclerView_Interface alexB_recyclerView_interface){
         this.context = context;
         this.appSuggestions = appSuggestions;
         this.alexB_recyclerView_interface = alexB_recyclerView_interface;
@@ -35,13 +37,13 @@ public class AlexB_RecyclerView_Adapter extends RecyclerView.Adapter<AlexB_Recyc
 
     @Override
     public void onBindViewHolder(@NonNull AlexB_ViewHolder holder, int position){
-        holder.recyclerRowText.setText(appSuggestions[position]);
+        holder.recyclerRowText.setText(appSuggestions.get(position));
     }
 
     @Override
     public int getItemCount(){
         //Sets the number of items in the recyclerView
-        return appSuggestions.length;
+        return appSuggestions.size();
     }
 
     public static class AlexB_ViewHolder extends RecyclerView.ViewHolder{
