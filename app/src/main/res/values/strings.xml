@@ -4,6 +4,116 @@
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="rwt_title_bar">Prof Tanner String</string>
+    <string name="acd_name">Alissa Davis</string>
+    <string name="acd_tempsugg_text">Random Prompt Generator</string>
+    <string name="acd_tempsugg_det">Generate prompts for AI...</string>
+    <string-array name="acd_app_suggestions">
+        <item>DND Dice Tower</item>
+        <item>Habit Checklist</item>
+        <item>Grade Checker Widget</item>
+        <item>Random Prompt Generator</item>
+    </string-array>
+    <string-array name="acd_appsugg_desc">
+        <item>Roll an array of dice...</item>
+        <item>Build good daily habits...</item>
+        <item>Check your grades...</item>
+        <item>Generate prompts for AI...</item>
+    </string-array>
+    <string-array name="acd_appsugg_moreinfo">
+        <item>The user gets to select a type of dice and then roll it to get a result. It is very helpful for people who play DnD games or those who rely on chance to make decisions.</item>
+        <item>The user makes daily habits they want to develop. They can set reminders to remind themself to check the habit off their list for the day. The list resets at midnight in their local time.</item>
+        <item>This widget allows users to check their grades on their home screen without having to open their school app.</item>
+        <item>This app allows users to generate random prompts from a dictionary to use for AI generators (for instance, Dall-E image generator).</item>
+    </string-array>
+    <string name="agm_name">Anthony Moncivais</string>
+    <string name="agm_title">CS and DET Student at ACU</string>
+    <string name="lvlup_title">Lvl Up</string>
+    <string name="lvlup_description">   An app to track things such as workouts, studying, diet etc... and provides players with a stats sheet just like those that can be found in RPGs. The idea is to get people that would normally invest a lot of time on leveling up a virtual character to spend some time leveling themselves up</string>
+    <string name="church_geolocator_title"> Church Geolocator</string>
+    <string name="church_geolocator_description"> An app to search the area around you to find churches in the area and provide you with basic information to get connected</string>
+
+    <!-- ncm strings -->
+    <string name="ncm_name">Noah Massie</string>
+    <string name="ncm_title">Senior Student of DET</string>
+    <string name="ncm_title_bar">Noah Massie Info</string>
+    <string name="ncm_app_title">Mythos Tree</string>
+    <string name="ncm_app_ideas">App Possibilities</string>
+    <string name="ncm_app_info">Interactive Mythological Tree which allows you to select a pantheon and then learn which gods were supposed to affect which aspects of life such as love, agriculture, war, and so on, while also providing their family trees and possibly the backgrounds/origins of the individual gods.</string>
+
+    <!--blk strings -->
+    <string name="blk_name">Bailey Kimmel</string>
+    <string name="description">Elle Woods but Computer Science</string>
+    <string name="nails">Abilene alone has over 30 nail bars. This proposes an issue women face: Which one has the shortest wait?</string>
+    <string name="title_bk">NailTime would allow nail bars to post their wait times which would clear waiting rooms, boost business, and accommodate the customer. </string>
+    <string name="MM_title_bar">Marlon Eduardo Miller</string>
+    <string name="MM_appTitle_bar">Risky World Accounting</string>
+    <string name="MM_RW_1">The Risky World App is an Accounting Website idea, designed by my father and developed by me, is a accounting database system keeping track of general information, parameters, catalogs, and users from different departments inside a company from Honduras.</string>
+    <string name="MM_RW_2">This app is fully dynamic, where administrators can add, delete or change information constantly by accessing their accounts, modifying records and assigning tasks to several other administrators and users.
+</string>
+    <string name="MM_RW_3">Risky World is an accountability prototype system architecture designed to implement basic security to several roles for users, implement basic parameters and functionalities in the applications, building registration, wholesale in accounting items and a clean and integral financial status for the company.</string>
+    <string name="MJ_Title">MDog\'s Incrediblely Bad Ideas</string>
+    <string name="MJ_Text">I wanted to elaborate more on the apps I thought about creating. The inventors app is an app where inventors can post new ideas and request funds, material, and assistance. The Snack Raid app is an app that keeps track of the snackage in your house and has a randomizer if you dont know what to snack on. Lastly, have you ever wanted to capatilize..I mean spread the new online age of dating? Why spend over a hundred dollars on a cheap bluetooth LED when you can spend 1 dollar on a cheap piece of software! With Couple Buttons, you can now instagate (that means start) conversations with your partner. Simply register thier phone number as well as your own, create your buttons, and chat with the ease of a simple push.</string>
+
+
+
+    <string name="bmb_name">Benjamin Blackmon</string>
+    <string name="bmb_title">Senior DET Major</string>
+    <string name="bmb_title_bar">Benjamin\'s App Ideas</string>
+    <string name="bmb_list_maker_title_bar">List Maker</string>
+    <string name="bmb_list_maker_description">
+        List Maker is a super customizable list creator.
+        There will be one main view where you can add "categories" to it. A category can have another category added to it,
+        or a list. A list is comprised of a bunch of smaller items that can be given a priority,
+        a date, and have reminders set on it for notifications. The main view can have categories and lists added to it
+        so you can see only lists in the category for "school", or perhaps only one list for when you go shopping.
+        This is to get the best parts of the inheritance system (where we can store categories and lists inside of other
+        categories for organizational purposes), while also being able to show multiple lists at the same time (say,
+        multiple classes for school). The items shown in the main view can be sorted by priority, due date, reminder date,
+        or alphabetically (and any other types of sorting things that might be helpful.
+    </string>
+
+    <string name="bmb_rpg_life_title_bar">RPG Life</string>
+    <string name="bmb_rpg_life_description">
+        RPG Life is an app about taking real life progress and turning it into something more quantifiable.
+        Users will be able to add types of work and prescribe it to a particular stat (strength, intelligence,
+        dexterity, etc.). This will improve their stats and they will be able to have numbers to display actual growth
+        to motivate people for their progress.
+    </string>
+    <string name="MR_name">Mike Rageur</string>
+    <string name="MR_Title">Computer Science</string>
+    <string name="MR_Title_Bar">Mike Rageur String</string>
+    <string name="MR_Livestream_App">What I planned on having for the livestream app is allowing the app to have web extension. Other competitors don\'t have the web extension features resulting mobile users missing out on the fun of raid or chat spam. Extentions like 7TV and BetterTV allows certain word to become GIF or picture.</string>
+
+    <string name="DLAF_LN">
+        An app that will consist of 2 sections, one for lost dogs, and one for found dogs.
+        This allows the user to input any information about any dogs that are lost and/or found.
+        This app will also notify the user if there is any matching information when the 2 sections are compared.
+
+        Future Goals:
+        Adding in location services for near by areas.
+    </string>
+
+    <string name="LN_name">Lauren Najera</string>
+    <string name="LN_title">Student of DET</string>
+    <string name="LN_title_bar">Lauren\'s App Ideas</string>
+
+    <string name="Doggy_title_bar">Doggy Lost and Found</string>
+
+    <string name="ekg_name">Evan Grau</string>
+    <string name="ekg_title">Sophomore CS Student</string>
+    <string name="ekg_title_bar">Evan Grau\'s Page</string>
+    <string name="ekg_third_title_bar">Bible App But Better</string>
+    <string name="ekg_bible_content">In my new Bible app, you can do everything your old Bible app could do, like reading the Bible, doing devotionals, and setting reading plans, but I\'m also bringing back INDULGENCES!! Need to get into heaven for sure? Just pay your way straight to the pearly gates! All it takes is a measly $100,000 per person straight to my bank accou- I mean God! So what do you say? You want your boring old Bible app, or do you want the Bible app, but better?</string>
+    <string name="todo">TODO</string>
+
+    <string name="kelli_name">Kelli Norris</string>
+    <string name="kelli_title">Student of DET</string>
+    <string name="kelli_title_bar">Notes App</string>
+    <string name="gjb_name">Griffin Barnard</string>
+    <string name="gjb_title">CS Student at ACU</string>
+    <string name="gjb_title_bar">Griffin\'s Really Cool Page</string>
+    <string name="gjb_ClassHelper_title_bar">Class Helper</string>
+    <string name="gjb_description">Have you ever found accountability when many miles away from home hard to find? Even if you haven\'t, no need to worry anymore! Class Helper is designed to solve all your problems(As long as they are the very specific problems CLass Helper was designed to solve). \n\n Class Helper provides a variety of ways to help you stay on top of your classes. It provides you reminders both an hour before your classes and immediately after to study and review. This is done to increase learning and retention. Class Helper will also prompt you on both Saturday and Sunday to enter your homework and its due times for the week. then Class helper will periodically remind you to due your homework, with increasing frequency as the deadline for the homework approaches.</string>
 
     //AlexB Strings
     <string name="ab_title_bar">Alexander Burgos, CS</string>

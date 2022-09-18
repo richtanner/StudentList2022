@@ -11,21 +11,24 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener
 {
     ListView simpleList;
 
     // Array of strings...
     // We could have also have created an empty array and then added each item individually using array.add type functions
+    // Ethan isn't in this class anymore, silly
     String[] peopleList = {
+            //test for branch pushhhhh
             "Clayton Arnett, CS", //0
-            "Griffin Barnard, CS",
+            "Griffin Barnard, CS", // second coolest student in this class
             "Ben Blackmon, DET",
             "Ben Briggs, DET",
             "Alex Burgos, CS",
-            "Ethan Clayton, CS",
             "Alissa Davis, DET",
-            "Evan Grau, CS",
+            "Evan Grau, CS", // coolest student in this class, according to my calculations
             "McLennan Jones, CS",
             "Bailey Kimmel, CS",
             "Noah Massie, DET",
@@ -63,9 +66,18 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position)
         {
-            case 18:
+            case 9:
+                Toast.makeText(this, personSelected + ", made this toast.", Toast.LENGTH_LONG).show();
+                break;
+
+            case 17:
                 // by specific index
                 Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
+                break;
+
+            case 6:
+                // it's me!
+                Toast.makeText(this, personSelected + " is trying his best!", Toast.LENGTH_LONG).show();
                 break;
 
             default:
@@ -83,7 +95,104 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
         }
+        if (personSelected.equals("Griffin Barnard, CS"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, GriffinBarnardActivity.class);
+            context.startActivity(intent);
+        }
 
+        /** do something cool based on the INDEX (int) of the selected item **/
+        switch (position)
+        {
+            case 14:
+                // by specific index
+                Toast.makeText(this, personSelected + " created the Master branch!!", Toast.LENGTH_LONG).show();
+                break;
+
+            default:
+                // every case that wasn't specifically called out
+                Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();
+                break;
+        }
+
+
+        /** do something cool based on the exact VALUE (string) of the selected item **/
+        if (personSelected.equals("Kelli Norris, DET"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, activity_Kelli_Norris.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected.equals("Mike Rageur, CS"))
+        {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, MikeRageurActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected.equals("McLennan Jones, CS"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, MDogAppIdeas.class);
+            context.startActivity(intent);
+        }
+
+        else if (personSelected.equals("Marlon Miller Matute, CS")) {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, MarlonMillerActivity.class);
+            context.startActivity(intent);
+        }
+        else if(personSelected.equals("Noah Massie, DET"))
+        {
+            //waow new actt
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, NCMActivity.class);
+            context.startActivity(intent);
+        }
+        else if(personSelected.equals("Anthony Moncivais, CS & DET"))
+        {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, AnthonyActivity.class);
+            context.startActivity(intent);
+        }
+        else if(personSelected.equals("Alissa Davis, DET"))
+        {
+            //Alissa One
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, AlissaDavisActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected.equals("Bailey Kimmel, CS"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, AppIdeaActivity_blk.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected.equals("Ben Blackmon, DET"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, BenBlackmonActivity.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected.equals("Lauren Najera, DET"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, LaurenNajera.class);
+            context.startActivity(intent);
+        }
+        else if (personSelected.equals("Evan Grau, CS"))
+        {
+            // go to my activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, EvanGrauActivity.class);
+            context.startActivity(intent);
+        }
         else if (personSelected.equals("Alex Burgos, CS"))
         {
             //Goes to a new activity
@@ -91,5 +200,18 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, AlexB_Activity.class);
             context.startActivity(intent);
         }
+    }
+
+    public void randoStudent(View view)
+    {
+        // we want a random number that we can match to the student list
+        Random r = new Random();
+        int max = 17;
+        int min = 0;
+        int random = r.nextInt(max-min+1)+min;
+        String mergePersonSelected = (String) simpleList.getAdapter().getItem(random);
+
+        // every case that wasn't specifically called out
+        Toast.makeText(this, mergePersonSelected + " is NEXT on MERGE MASTER MIXUP", Toast.LENGTH_SHORT).show();
     }
 }
