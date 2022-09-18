@@ -9,6 +9,7 @@
     <string name="ab_title_bar">Alexander Burgos, CS</string>
     <string name="ab_name">Alexander Burgos</string>
     <string name="ab_title">CS Master Race</string>
+    <string name="ab_activity_titlebar">Alex Burgos, CS</string>
 
     <string-array name="ab_appSuggestions_stringArray">
         <item>Tarkov Gucci Gear Optimizer</item>
