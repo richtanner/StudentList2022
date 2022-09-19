@@ -244,10 +244,35 @@
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".GriffinBarnardActivity" />
         </activity>
+        tools:targetApi="31">
+        <activity
+            android:name=".BriggsExpandedApp"
+            android:parentActivityName=".BriggsAppIdeas"
+            android:theme="
+            @style/BriggsCustomTheme"/>
+
+        <!-- The meta-data tag is required if you support API level 15 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        <activity
+            android:name=".BriggsAppIdeas"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/BriggsCustomTheme">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".ProfTannerActivity"
             android:exported="false"
             android:label="@string/rwt_title_bar"
+            android:theme="@style/ProfTannerCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
             android:theme="@style/ProfTannerCustomTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -300,7 +325,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

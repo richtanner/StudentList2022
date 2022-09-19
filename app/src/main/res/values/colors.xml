@@ -66,4 +66,8 @@
     <color name="gjb_endcolor">#C6F8FF</color>
     <color name="trans">#00232323</color>
     <color name="darkgray">#414141</color>
+
+    <color name="bab_DarkGreen">#25781F</color>
+    <color name="bab_lighterGreen">#3FBD3F</color>
+    <color name="bab_AnotherGreen">#537E41</color>
 </resources>

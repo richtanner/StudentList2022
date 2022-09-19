@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Ben Blackmon, DET",
             "Ben Briggs, DET",
             "Alex Burgos, CS",
+            "Ethan Clayton, CS",
             "Alissa Davis, DET",
             "Evan Grau, CS", // coolest student in this class, according to my calculations
             "McLennan Jones, CS",
@@ -78,6 +79,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 6:
                 // it's me!
                 Toast.makeText(this, personSelected + " is trying his best!", Toast.LENGTH_LONG).show();
+                break;
+
+            case 3:
+                Toast.makeText(this, personSelected + " created a cool branch XD!!", Toast.LENGTH_LONG).show();
                 break;
 
             default:
