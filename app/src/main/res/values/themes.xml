@@ -97,4 +97,16 @@
         <item name="colorAccent">@color/KNterquise</item>
     </style>
 
+    <style name="ClaytonArnettCustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/cra_customRed</item>
+        <item name="colorPrimaryDark">@color/cra_customRedDark</item>
+        <item name="colorAccent">@color/cra_customGrey</item>
+    </style>
+
+    <style name="ThirdActivityCustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/ta_customPurple</item>
+        <item name="colorPrimaryDark">@color/ta_customPurpleDark</item>
+        <item name="colorAccent">@color/ta_customMagenta</item>
+    </style>
+
 </resources>

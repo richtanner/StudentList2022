@@ -245,6 +245,24 @@
             android:value=".GriffinBarnardActivity" />
         </activity>
         <activity
+            android:name=".ThirdActivity"
+            android:exported="false"
+            android:label="@string/ta_title_bar"
+            android:theme="@style/ThirdActivityCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CRA_Activity" />
+        </activity>
+        <activity
+            android:name=".CRA_Activity"
+            android:exported="false"
+            android:label="@string/cra_title_bar"
+            android:theme="@style/ClaytonArnettCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ProfTannerActivity"
             android:exported="false"
             android:label="@string/rwt_title_bar"
@@ -276,6 +294,10 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+            android:theme="@style/ProfTannerCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

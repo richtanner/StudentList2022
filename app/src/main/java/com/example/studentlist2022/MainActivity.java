@@ -19,16 +19,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     // Array of strings...
     // We could have also have created an empty array and then added each item individually using array.add type functions
-    // Ethan isn't in this class anymore, silly
     String[] peopleList = {
-            //test for branch pushhhhh
             "Clayton Arnett, CS", //0
-            "Griffin Barnard, CS", // second coolest student in this class
+            "Griffin Barnard, CS",
             "Ben Blackmon, DET",
             "Ben Briggs, DET",
             "Alex Burgos, CS",
             "Alissa Davis, DET",
-            "Evan Grau, CS", // coolest student in this class, according to my calculations
+            "Evan Grau, CS",
             "McLennan Jones, CS",
             "Bailey Kimmel, CS",
             "Noah Massie, DET",
@@ -85,7 +83,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();
                 break;
         }
-
 
         /** do something cool based on the exact VALUE (string) of the selected item **/
         if (personSelected.equals("Prof Tanner, DET & CS"))
@@ -213,5 +210,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         // every case that wasn't specifically called out
         Toast.makeText(this, mergePersonSelected + " is NEXT on MERGE MASTER MIXUP", Toast.LENGTH_SHORT).show();
+
+        if (personSelected.equals("Clayton Arnett, CS"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, CRA_Activity.class);
+            context.startActivity(intent);
+        }
     }
 }
