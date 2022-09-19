@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Ben Blackmon, DET",
             "Ben Briggs, DET",
             "Alex Burgos, CS",
-            "Ethan Clayton, CS",
             "Alissa Davis, DET",
             "Evan Grau, CS", // coolest student in this class, according to my calculations
             "McLennan Jones, CS",
@@ -40,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Grayson Orcutt, DET",
             "Mike Rageur, CS",
             "Cameron Wallace, DET",
-            "Prof Tanner, DET & CS" //18
+            "Prof Tanner, DET & CS" //17
     };
 
     @Override
@@ -107,8 +106,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, GriffinBarnardActivity.class);
             context.startActivity(intent);
         }
-
-        /** do something cool based on the exact VALUE (string) of the selected item **/
         else if (personSelected.equals("Kelli Norris, DET"))
         {
             // go to a new activity
@@ -129,7 +126,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, MDogAppIdeas.class);
             context.startActivity(intent);
         }
-
         else if (personSelected.equals("Marlon Miller Matute, CS")) {
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, MarlonMillerActivity.class);
