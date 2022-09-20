@@ -193,6 +193,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(context, BriggsAppIdeas.class);
             context.startActivity(intent);
         }
+        else if (personSelected.equals("Cameron Wallace, DET"))
+        {
+            // go to my activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, CDW_Activity.class);
+            context.startActivity(intent);
+        }
     }
 
     public void randoStudent(View view)

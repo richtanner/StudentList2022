@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.studentlist2022" >
+    package="com.example.studentlist2022">
 
     <application
         android:allowBackup="true"
@@ -12,13 +12,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudentList2022"
-        tools:targetApi="31" >
-
+        tools:targetApi="31">
+        <activity
+            android:name=".CDW_SingleListItem"
+            android:exported="false" />
+        <activity
+            android:name=".CDW_optionDescription"
+            android:exported="false"
+            android:label="@string/cdw_catan_Title"
+            android:parentActivityName="com.example.studentlist2022.CDW_CatanSecond"
+            android:theme="@style/cdw_MyCatanTheme"/>
+        <activity
+            android:name=".CDW_CatanSecond"
+            android:exported="false"
+            android:label="@string/cdw_catan_Title"
+            android:parentActivityName="com.example.studentlist2022.CDW_CatanBoardGeneratorIdea"
+            android:theme="@style/cdw_MyCatanTheme"/>
+        <activity
+            android:name=".CDW_CatanBoardGeneratorIdea"
+            android:exported="false"
+            android:label="@string/cdw_catan_Title"
+            android:parentActivityName="com.example.studentlist2022.CDW_Activity"
+            android:theme="@style/cdw_MyCatanTheme"/>
+        <activity
+            android:name=".CDW_Activity"
+            android:exported="false"
+            android:label="@string/cdw_title_bar"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/cdw_MyCatanTheme"/>
         <activity
             android:name=".AlexB_Activity"
             android:label="@string/ab_activity_titlebar"
             android:parentActivityName=".MainActivity" />
-
         <activity
             android:name=".DoggyLostAndFound"
             android:exported="false"
@@ -27,7 +52,6 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".LaurenNajera" />
-
         </activity>
         <activity
             android:name=".LaurenNajera"
@@ -37,9 +61,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
-
         </activity>
-
         <activity
             android:name=".RPGLifeActivity"
             android:exported="false"
@@ -48,19 +70,16 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".BenBlackmonActivity" />
-
         </activity>
-
         <activity
             android:name=".ListMaker"
             android:exported="false"
             android:label="@string/bmb_list_maker_title_bar"
             android:theme="@style/BenBlackmonCustomTheme">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".BenBlackmonActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BenBlackmonActivity" />
         </activity>
-
         <activity
             android:name=".BenBlackmonActivity"
             android:exported="false"
@@ -69,17 +88,15 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
-
         </activity>
-
         <activity
             android:name=".MM_RiskyWorldAccounting"
             android:exported="false"
             android:label="@string/MM_appTitle_bar"
             android:theme="@style/MarlonMillerCustomTheme">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MarlonMillerActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MarlonMillerActivity" />
         </activity>
         <activity
             android:name=".MarlonMillerActivity"
@@ -112,6 +129,7 @@
             android:name=".ACD_AppSuggestion_Details_Page"
             android:exported="false"
             android:parentActivityName=".AlissaDavisActivity">
+
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -120,9 +138,9 @@
         <activity
             android:name=".AlissaDavisActivity"
             android:exported="false"
-            android:theme="@style/AlissaDavisCustomTheme"
-            android:label="Alissa's App Recommendations"
-            android:parentActivityName=".MainActivity"/>
+            android:label="Alissa&apos;s App Recommendations"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AlissaDavisCustomTheme" />
         <activity
             android:name=".SingleListItemNCM"
             android:exported="false" />
@@ -148,11 +166,12 @@
             android:name=".specialapp_blk"
             android:parentActivityName=".MainActivity"
             android:theme="@style/BaileyKCustomTheme">
+
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"
-                android:exported="false" />
+                android:exported="false"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".AppIdeaActivity_blk"
@@ -162,8 +181,8 @@
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"
-                android:exported="false" />
+                android:exported="false"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".CoupleButtons"
@@ -179,6 +198,7 @@
             android:exported="true"
             android:label="@string/MJ_Title"
             android:theme="@style/MDogTheme">
+
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -186,19 +206,21 @@
         </activity>
         <activity
             android:name=".MikeRageurActivity2"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/MikeRageurCustomTheme"
+            android:exported="false"
             android:label="@string/MR_Title_Bar"
-            android:exported="false" />
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MikeRageurCustomTheme" />
         <activity
             android:name=".MikeRageurActivity"
             android:exported="false"
+            android:label="@string/MR_Title_Bar"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/MikeRageurCustomTheme"
-        android:label="@string/MR_Title_Bar"/>
+            android:theme="@style/MikeRageurCustomTheme" />
+
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".MainActivity" />
+
         <activity
             android:name=".EKGThirdActivity"
             android:exported="false"
@@ -222,9 +244,9 @@
             android:exported="false"
             android:label="@string/kelli_name"
             android:theme="@style/KNCustomTheme">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".activity_Kelli_Norris" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_Kelli_Norris" />
         </activity>
         <activity
             android:name=".activity_Kelli_Norris"
@@ -240,19 +262,18 @@
             android:exported="false"
             android:label="@string/gjb_ClassHelper_title_bar"
             android:theme="@style/GriffinBarnardCustomTheme">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".GriffinBarnardActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GriffinBarnardActivity" />
         </activity>
         <activity
             android:name=".BriggsExpandedApp"
             android:parentActivityName=".BriggsAppIdeas"
-            android:theme="@style/BriggsCustomTheme"/>
-
-        <!-- The meta-data tag is required if you support API level 15 and lower -->
+            android:theme="@style/BriggsCustomTheme" /> <!-- The meta-data tag is required if you support API level 15 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".MainActivity" />
+
         <activity
             android:name=".BriggsAppIdeas"
             android:parentActivityName=".MainActivity"
