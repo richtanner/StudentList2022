@@ -139,4 +139,9 @@
     <string name="cra_title_bar">Clayton Arnett String</string>
     <string name="ta_title_bar">Play Volleyball!</string>
     <string name="thirdActivityText">Play Volleyball! will be a brand new app that lets you see all the nearest places where volleyball is being played. Volleyball is my favorite sport to play and I often struggle with finding places to play at or people to play with. This app will let you see the location of where volleyball is being played, approximately how many people are playing, and the skill level of the people there.\n\nThis app will be a huge help for anyone looking to play locally and will also serve as a great way to connect with others as well as the community! Play Volleyball\'s mission is to simply get more people active and playing the best sport in the world.</string>
+
+    <string name="bab_name">Benjamin Briggs</string>
+    <string name="bab_title">Mere Mortal Student</string>
+    <string name="bab_app_text">This would be an App that instantly translates text written or on a photo.....
+        and yes I know Google already does that but hush.....also the photo might be a bit much but ¯|_(ツ)_|¯</string>
 </resources>
