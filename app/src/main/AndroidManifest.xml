@@ -267,6 +267,24 @@
                 android:value=".GriffinBarnardActivity" />
         </activity>
         <activity
+            android:name=".ThirdActivity"
+            android:exported="false"
+            android:label="@string/ta_title_bar"
+            android:theme="@style/ThirdActivityCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CRA_Activity" />
+        </activity>
+        <activity
+            android:name=".CRA_Activity"
+            android:exported="false"
+            android:label="@string/cra_title_bar"
+            android:theme="@style/ClaytonArnettCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".BriggsExpandedApp"
             android:parentActivityName=".BriggsAppIdeas"
             android:theme="@style/BriggsCustomTheme" /> <!-- The meta-data tag is required if you support API level 15 and lower -->
@@ -320,6 +338,10 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+            android:theme="@style/ProfTannerCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

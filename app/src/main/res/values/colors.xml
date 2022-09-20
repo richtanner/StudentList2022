@@ -66,6 +66,12 @@
     <color name="gjb_endcolor">#C6F8FF</color>
     <color name="trans">#00232323</color>
     <color name="darkgray">#414141</color>
+    <color name="cra_customRed">#db0b0b</color>
+    <color name="cra_customRedDark">#750808</color>
+    <color name="cra_customGrey">#808080</color>
+    <color name="ta_customPurple">#7605E8</color>
+    <color name="ta_customPurpleDark">#FF3A0570</color>
+    <color name="ta_customMagenta">#FFCF06E6</color>
 
     <color name="bab_DarkGreen">#25781F</color>
     <color name="bab_lighterGreen">#3FBD3F</color>
